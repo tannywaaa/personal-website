@@ -12,20 +12,20 @@ export class NavBar extends Component {
 
       <div className="demo-big-content">
         <Layout>
-          <Header title={this.props.title} scroll>
+          <Header title="Title" scroll>
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
             </Navigation>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
             </Navigation>
           </Drawer>
           <Content>
