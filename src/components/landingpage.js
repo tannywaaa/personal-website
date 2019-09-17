@@ -1,10 +1,63 @@
 import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
+import Profile from "../profile.png";
+import { Button } from "react-bootstrap";
 
 class Landing extends Component {
   render() {
     return (
-      <div>
-        <h1>Landing Page</h1>
+      <div
+        id="dummy"
+        className="demo-big-content"
+        style={{ width: "100%", height: "803px" }}
+      >
+        <Grid>
+          <Cell col={12}>
+            <div className="banner-text">
+              <img src={Profile} alt="avatar" className="avatar-img" />
+              <h1>
+                Hello,<br></br>I'm Tangni Wang
+              </h1>
+              <h2>Software Engineer</h2>
+              <p>
+                Recent Graduate in Computer Science actively seeking for a job.
+                Please stay on the site for as long as you want. If you want to
+                help me with my job search, feel free to click on the contact
+                button below :)
+              </p>
+
+              <div className="social-links">
+                {/* LinkedIn */}
+                <Button
+                  style={{
+                    width: "30%",
+                    fontSize: " 20px",
+                    paddingTop: "28px"
+                  }}
+                  variant="outline-light"
+                  href="/contact"
+                >
+                  CONTACT
+                </Button>
+                <a
+                  href="https://www.linkedin.com/in/tangni-wang/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                {/* Github */}
+                <a
+                  href="https://github.com/tannywaaa"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </div>
+            </div>
+          </Cell>
+        </Grid>
       </div>
     );
   }
