@@ -51,15 +51,11 @@ class Resume extends Component {
             />
             <h3 style={{ color: "#332f2d" }}>Education</h3>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-school"></i>
-              </a>
+              <i class="fas fa-school"></i>
             </div>
             <p>University of California, Santa Cruz</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-user-graduate"></i>
-              </a>
+              <i class="fas fa-user-graduate"></i>
             </div>
             <p>Computer Science, B.S., June 2019</p>
             <br></br>
@@ -73,21 +69,15 @@ class Resume extends Component {
             />
             <h3 style={{ color: "#332f2d" }}>Contact</h3>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-envelope-square"></i>
-              </a>
+              <i class="fas fa-envelope-square"></i>
             </div>
             <p>wangtangni96@gmail.com</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-phone-square"></i>
-              </a>
+              <i class="fas fa-phone-square"></i>
             </div>
             <p>(123) 456-7890</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
+              <i class="fab fa-linkedin"></i>
             </div>
             <p>www.linkedin.com/in/tangni-wang/</p>
             <div className="social-links-resume">
@@ -121,34 +111,24 @@ class Resume extends Component {
             />
             <h3 style={{ color: "#332f2d" }}>Skills</h3>
             <Skills skill="Most Experienced" progress={100} />
-            <a
-              className="social-links-resume"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <div className="social-links-resume">
               <i class="fas fa-code"></i>
-            </a>
+            </div>
             <p style={{ paddingLeft: "5%" }}> Python, Java</p>
             <Skills skill="Less Experienced" progress={70} />
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-code"></i>
-              </a>
+              <i class="fas fa-code"></i>
             </div>
             <p style={{ paddingLeft: "5%" }}>JavaScript, MySQL, C, HTML, CSS</p>
             <Skills skill="Platform Used" progress={80} />
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-code"></i>
-              </a>
+              <i class="fas fa-code"></i>
             </div>
             <p style={{ paddingLeft: "5%" }}>
               React, Ruby, Unix, Latex, Git, Bootstrap
             </p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-code"></i>
-              </a>
+              <i class="fas fa-code"></i>
             </div>
             <p style={{ paddingLeft: "5%" }}>Android Studio, Web2py</p>
             <br></br>
@@ -162,27 +142,19 @@ class Resume extends Component {
             />
             <h3 style={{ color: "#332f2d" }}>Course Work</h3>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-book"></i>
-              </a>
+              <i class="fas fa-book"></i>
             </div>
             <p>Software Engineering, Database Systems, Mobile Applications</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-book"></i>
-              </a>
+              <i class="fas fa-book"></i>
             </div>
             <p>Web Applications, Artificial Intelligence, Operating Systems</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-book"></i>
-              </a>
+              <i class="fas fa-book"></i>
             </div>
             <p>Computational Models, Analysis of Algorithms, Data Structures</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-book"></i>
-              </a>
+              <i class="fas fa-book"></i>
             </div>
             <p>Data Structures, Computer Networking, Abstract Data Type</p>
             <br></br>
@@ -196,15 +168,11 @@ class Resume extends Component {
             />
             <h3 style={{ color: "#332f2d" }}>languages</h3>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-flag"></i>
-              </a>
+              <i class="fas fa-flag"></i>
             </div>
             <p>English</p>
             <div className="social-links-resume">
-              <a rel="noopener noreferrer" target="_blank">
-                <i class="fas fa-flag"></i>
-              </a>
+              <i class="fas fa-flag"></i>
             </div>
             <p>Mandarin</p>
           </Cell>
