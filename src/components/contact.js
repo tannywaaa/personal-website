@@ -30,7 +30,6 @@ class Contact extends Component {
     this.setState({
       disabled: true
     });
-    console.log(req.body);
     Axios.post("/api/email", this.state)
       .then(res => {
         console.log("2");
