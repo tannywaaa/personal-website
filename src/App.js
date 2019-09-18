@@ -8,24 +8,20 @@ class App extends Component {
   static defaultProps = {
     icon: "fas fa-home"
   };
-  constructor() {
-    super();
-    this.myRef = React.createRef();
-  }
-  componentDidMount() {
-    this.effect = window.VANTA.DOTS({
-      el: "#dummy",
-      backgroundColor: 0x0
-    });
-  }
-  componentWillUnmount() {
-    if (this.effect) this.effect.destroy();
-  }
+
   render() {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Home" icon="fas fa-home">
+          <Header
+            className="header-color"
+            title={
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                Home
+              </Link>
+            }
+            scroll
+          >
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
@@ -33,7 +29,13 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="Home">
+          <Drawer
+            title={
+              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+                Home
+              </Link>
+            }
+          >
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>

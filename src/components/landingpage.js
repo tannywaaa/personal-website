@@ -4,6 +4,22 @@ import Profile from "../profile.png";
 import { Button } from "react-bootstrap";
 
 class Landing extends Component {
+  constructor() {
+    super();
+    this.myRef = React.createRef();
+  }
+  componentDidMount() {
+    this.effect = window.VANTA.DOTS({
+      el: "#dummy",
+      color: 0xff4a,
+      color2: 0x0,
+      backgroundColor: 0x0,
+      spacing: 30.0
+    });
+  }
+  componentWillUnmount() {
+    if (this.effect) this.effect.destroy();
+  }
   render() {
     return (
       <div

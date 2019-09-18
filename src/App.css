@@ -69,3 +69,22 @@
   font-size: 5em;
   padding: 8px;
 }
+
+/* Resume*/
+.resume-right-col {
+  background: #332f2d;
+  color: white;
+  padding: 2em;
+}
+
+.social-links-resume {
+  color: black;
+  width: 10%;
+  float: left;
+  padding-left: 1%;
+}
+
+.social-links-resume i {
+  color: #332f2d;
+  font-size: 1.3em;
+}
