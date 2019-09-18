@@ -1,0 +1,100 @@
+/* @import url("https://fonts.googleapis.com/css?family=Roboto"); */
+
+.header-color {
+  font-family: "Special Elite", cursive;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #000000,
+    #000000,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.avatar-img {
+  height: 780px;
+  padding-top: 7em;
+  opacity: 1;
+  float: right;
+}
+
+.banner-text {
+  opacity: 1;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  padding-top: 2em;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.banner-text h2 {
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  font-family: "Special Elite", cursive;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding-top: 40px;
+  font-family: "Special Elite", cursive;
+}
+
+.social-links {
+  padding-top: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  float: left;
+  font-family: "Special Elite", cursive;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/* Resume*/
+.resume-right-col {
+  background: #332f2d;
+  color: white;
+  padding: 2em;
+}
+
+.social-links-resume {
+  color: black;
+  width: 10%;
+  float: left;
+  padding-left: 1%;
+}
+
+.social-links-resume i {
+  color: #332f2d;
+  font-size: 1.3em;
+}
+
+/* contact */
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+.err-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+}
