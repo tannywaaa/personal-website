@@ -22,6 +22,7 @@ app.get("/api", (req, res, next) => {
 });
 
 app.post("/api/email", (req, res, next) => {
+  console.log(req.body);
   sendGrid.setApiKey(
     "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"
   );
@@ -46,4 +47,4 @@ app.post("/api/email", (req, res, next) => {
       });
     });
 });
-app.listen(3030, "0.0.0.0");
+app.listen(3000, "0.0.0.0");
