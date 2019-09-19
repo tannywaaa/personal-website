@@ -16,7 +16,14 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontFamily: "Kalam"
+                }}
+                to="/"
+              >
                 Home
               </Link>
             }

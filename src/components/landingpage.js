@@ -32,9 +32,9 @@ class Landing extends Component {
             <div className="banner-text">
               <img src={Profile} alt="avatar" className="avatar-img" />
               <h1>
-                Hello,<br></br>I'm Tangni Wang
+                Hello,<br></br>I'm Tanny
               </h1>
-              <h2>Software Engineer</h2>
+              <h2>Aspiring Software Engineer</h2>
               <p>
                 Recent Graduate in Computer Science actively seeking for a job.
                 Please stay on the site for as long as you want. If you want to

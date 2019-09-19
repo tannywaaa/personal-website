@@ -30,6 +30,7 @@ class Contact extends Component {
     this.setState({
       disabled: true
     });
+    console.log("1");
     Axios.post("/api/email", this.state)
       .then(res => {
         console.log("2");
@@ -54,7 +55,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
+      <div class="container">
         <h1>Contact</h1>
         <Form onSubmit={this.handleSubmit}>
           <Form.Group>

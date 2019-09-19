@@ -244,7 +244,7 @@ class Resume extends Component {
               startMonth="Apr"
               endMonth="Jun"
               year={2018}
-              jobName="Treeki, Android Application, using Android Studio"
+              jobName="Treeki, Android Application"
               jobDescription1="- Developed login, register by storing user information into database by using Firebase"
               jobDescription2="- Developed friends lists features such as searching friends from all users, adding friends with email and viewing friends' posts"
               link="Video Demo: https://www.youtube.com/watch?v=-m2fkFefGNk"
