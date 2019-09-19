@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <div class="container">
-        <form action="POST" name="contact" data-netlify="true">
+        <form action="/pages/success" name="contact" data-netlify="true">
           <p>
             <label>
               Your Name: <input type="text" name="name" />
