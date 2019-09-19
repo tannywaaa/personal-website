@@ -128,12 +128,6 @@
   color: white;
 }
 
-.content-section-heading h3 {
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-family: "Kalam", cursive;
-}
-
 .portfolio-item {
   display: block;
   position: relative;

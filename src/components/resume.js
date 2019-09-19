@@ -77,12 +77,18 @@ class Resume extends Component {
             </div>
             <p>(123) 456-7890</p>
             <div className="social-links-resume">
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/tangni-wang/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </div>
             <p>www.linkedin.com/in/tangni-wang/</p>
             <div className="social-links-resume">
               <a
-                href="https://www.linkedin.com/in/tangni-wang/"
+                href="https://www.github.com//tannywaaa"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -92,14 +98,14 @@ class Resume extends Component {
             <p>github.com/tannywaaa</p>
             <div className="social-links-resume">
               <a
-                href="https://www.github.com//tannywaaa"
+                href="https://tanny.netlift.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <i class="fas fa-window-maximize"></i>
               </a>
             </div>
-            <p>mywebsite.com</p>
+            <p>tanny.netlift.com</p>
             <br></br>
             {/* skills */}
             <hr
