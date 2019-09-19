@@ -98,14 +98,14 @@ class Resume extends Component {
             <p>github.com/tannywaaa</p>
             <div className="social-links-resume">
               <a
-                href="https://tanny.netlift.com"
+                href="https://tanny.netlify.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <i class="fas fa-window-maximize"></i>
               </a>
             </div>
-            <p>tanny.netlift.com</p>
+            <p>tanny.netlify.com</p>
             <br></br>
             {/* skills */}
             <hr
