@@ -4,106 +4,38 @@ import Button from "react-bootstrap/Button";
 import Axios from "axios";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-      disabled: false,
-      emailSent: null
-    };
-  }
-
-  handleChange = event => {
-    const target = event.target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
-    const name = target.name;
-
-    this.setState({
-      [name]: value
-    });
-  };
-
-  handleSubmit = event => {
-    event.preventDefault();
-    this.setState({
-      disabled: true
-    });
-    console.log("1");
-    Axios.post("/api/email", this.state)
-      .then(res => {
-        console.log("2");
-        if (res.data.success) {
-          console.log("3");
-          this.setState({
-            disabled: false,
-            emailSent: true
-          });
-        } else {
-          console.log("4");
-          this.setState({
-            disabled: false,
-            emailSent: false
-          });
-        }
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  };
-
   render() {
     return (
       <div class="container">
-        <h1>Contact</h1>
-        <Form onSubmit={this.handleSubmit}>
-          <Form.Group>
-            <Form.Label htmlFor="full-name">Full Name</Form.Label>
-            <Form.Control
-              id="full-name"
-              name="name"
-              type="text"
-              value={this.state.name}
-              onChange={this.handleChange}
-            />
-          </Form.Group>
-          <Form.Group>
-            <Form.Label htmlFor="email">Email</Form.Label>
-            <Form.Control
-              id="email"
-              name="email"
-              type="email"
-              value={this.state.email}
-              onChange={this.handleChange}
-            />
-          </Form.Group>
-          <Form.Group>
-            <Form.Label htmlFor="message">message</Form.Label>
-            <Form.Control
-              id="message"
-              name="message"
-              as="textarea"
-              rows="3"
-              value={this.state.message}
-              onChange={this.handleChange}
-            />
-          </Form.Group>
-          <Button
-            className="d-inline-block"
-            variant="primary"
-            type="submit"
-            disabled={this.state.disabled}
-          >
-            Send
-          </Button>
-          {this.state.emailSent === true && (
-            <p className="d-inline success-msg">Email Sent</p>
-          )}
-          {this.state.emailSent === false && (
-            <p className="d-inline err-msg">Email Not Sent</p>
-          )}
-        </Form>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Role:{" "}
+              <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message"></textarea>
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </div>
     );
   }

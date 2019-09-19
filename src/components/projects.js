@@ -4,6 +4,7 @@ import portfolio1 from "../img/portfolio-1.jpg";
 import portfolio2 from "../img/portfolio-2.jpg";
 import portfolio3 from "../img/portfolio-3.jpg";
 import portfolio4 from "../img/portfolio-4.jpg";
+import { Button } from "react-bootstrap";
 
 class Projects extends Component {
   render() {
@@ -32,6 +33,17 @@ class Projects extends Component {
                         This project used AI models to analyze Airbnb data and
                         study the factors for host to become a top earner.
                       </p>
+                      <Button
+                        style={{
+                          width: "30%",
+                          fontSize: " 10px",
+                          marginTop: "10px"
+                        }}
+                        variant="outline-light"
+                        href="#p1"
+                      >
+                        Read More
+                      </Button>
                     </span>
                   </span>
                   <img class="img-fluid" src={portfolio1} alt="" />
@@ -51,6 +63,17 @@ class Projects extends Component {
                         The website is an online platform that connects gigs
                         employers and employees.
                       </p>
+                      <Button
+                        style={{
+                          width: "30%",
+                          fontSize: " 10px",
+                          marginTop: "10px"
+                        }}
+                        variant="outline-light"
+                        href="#p2"
+                      >
+                        Read More
+                      </Button>
                     </span>
                   </span>
                   <img class="img-fluid" src={portfolio2} alt="" />
@@ -70,6 +93,17 @@ class Projects extends Component {
                         questions yearly which allows the user to see how
                         they've grown over the years.
                       </p>
+                      <Button
+                        style={{
+                          width: "30%",
+                          fontSize: " 10px",
+                          marginTop: "10px"
+                        }}
+                        variant="outline-light"
+                        href="#p3"
+                      >
+                        Read More
+                      </Button>
                     </span>
                   </span>
                   <img class="img-fluid" src={portfolio3} alt="" />
@@ -88,6 +122,17 @@ class Projects extends Component {
                         This website let teachers to create poll questions and
                         let students to input responses.
                       </p>
+                      <Button
+                        style={{
+                          width: "30%",
+                          fontSize: " 10px",
+                          marginTop: "10px"
+                        }}
+                        variant="outline-light"
+                        href="#p4"
+                      >
+                        Read More
+                      </Button>
                     </span>
                   </span>
                   <img class="img-fluid" src={portfolio4} alt="" />
@@ -96,6 +141,21 @@ class Projects extends Component {
             </div>
           </div>
         </section>{" "}
+        <h2 id="p1">project 1</h2>
+        <h2 id="p2">project 2</h2>
+        <h2 id="p3">project 3</h2>
+        <h2 id="p4">project 4</h2>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     );
   }
