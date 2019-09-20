@@ -23,7 +23,6 @@ class Contact extends Component {
           <button type="submit">Send</button>
         </p>
       </form>
-      <h1>hahahah</h1>
     );
   }
 }
