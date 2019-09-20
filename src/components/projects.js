@@ -83,6 +83,7 @@ class Projects extends Component {
                 <a
                   class="portfolio-item"
                   href="https://github.com/ktbeck/Treeki"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <span class="caption">
@@ -113,6 +114,7 @@ class Projects extends Component {
                 <a
                   class="portfolio-item"
                   href="https://github.com/AlexSm9/Spr2018_WebApp_Group_Project"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <span class="caption">
