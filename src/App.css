@@ -101,7 +101,7 @@
 
 /* project */
 .background-image {
-  height: 400px;
+  height: 600px;
   width: 100%;
 }
 .image-container {
@@ -111,7 +111,7 @@
 }
 .centered {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

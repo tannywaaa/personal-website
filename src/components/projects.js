@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Summer from "../summer.jpg";
+import Summer from "../summer.JPG";
 import portfolio1 from "../img/portfolio-1.jpg";
 import portfolio2 from "../img/portfolio-2.jpg";
 import portfolio3 from "../img/portfolio-3.jpg";
