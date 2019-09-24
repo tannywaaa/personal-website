@@ -188,3 +188,13 @@
 
 /* Contact Section
 --------------------------------*/
+
+/* About me Section
+--------------------------------*/
+.me-img {
+  height: 1000px;
+  padding-top: 15em;
+  padding-left: 6em;
+  opacity: 1;
+  float: left;
+}
