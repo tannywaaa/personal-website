@@ -53,6 +53,14 @@ class Landing extends Component {
                 >
                   CONTACT
                 </Button>
+                {/* resume */}
+                <a
+                  href="https://www.dropbox.com/s/04nnw2wtj59e7kn/spring_resume-7.pdf?dl=0"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fas fa-user-tag"></i>
+                </a>
                 <a
                   href="https://www.linkedin.com/in/tangni-wang/"
                   rel="noopener noreferrer"

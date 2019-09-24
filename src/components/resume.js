@@ -8,7 +8,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid style={{ background: "#DAD5DB", color: "black" }}>
+        <Grid style={{ background: "#FFF1FC", color: "black" }}>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img src={Profile2} alt="avatar" style={{ height: "200px" }} />
@@ -17,7 +17,7 @@ class Resume extends Component {
               style={{
                 paddingTop: "1em",
                 textAlign: "center",
-                color: "#332f2d"
+                color: "#493f3f"
               }}
             >
               Tangni Wang
@@ -29,12 +29,12 @@ class Resume extends Component {
             {/* objective */}
             <hr
               style={{
-                borderTop: "3px solid #332f2d",
-                width: "72%",
+                borderTop: "3px solid #493f3f",
+                width: "74%",
                 float: "right"
               }}
             />
-            <h3 style={{ color: "#332f2d" }}>Objective</h3>
+            <h3 style={{ color: "#493f3f" }}>Objective</h3>
             <p>
               I need a position as soon as possible due to my current OPT status
               and will take substantially lower pay compare to competing
@@ -44,12 +44,12 @@ class Resume extends Component {
             {/* education */}
             <hr
               style={{
-                borderTop: "3px solid #332f2d",
-                width: "72%",
+                borderTop: "3px solid #493f3f",
+                width: "74%",
                 float: "right"
               }}
             />
-            <h3 style={{ color: "#332f2d" }}>Education</h3>
+            <h3 style={{ color: "#493f3f" }}>Education</h3>
             <div className="social-links-resume">
               <i class="fas fa-school"></i>
             </div>
@@ -62,12 +62,12 @@ class Resume extends Component {
             {/* contact */}
             <hr
               style={{
-                borderTop: "3px solid #332f2d",
-                width: "76%",
+                borderTop: "3px solid #493f3f",
+                width: "78%",
                 float: "right"
               }}
             />
-            <h3 style={{ color: "#332f2d" }}>Contact</h3>
+            <h3 style={{ color: "#493f3f" }}>Contact</h3>
             <div className="social-links-resume">
               <i class="fas fa-envelope-square"></i>
             </div>
@@ -110,12 +110,12 @@ class Resume extends Component {
             {/* skills */}
             <hr
               style={{
-                borderTop: "3px solid #332f2d",
+                borderTop: "3px solid #493f3f",
                 width: "82%",
                 float: "right"
               }}
             />
-            <h3 style={{ color: "#332f2d" }}>Skills</h3>
+            <h3 style={{ color: "#493f3f" }}>Skills</h3>
             <Skills skill="Most Experienced" progress={100} />
             <div className="social-links-resume">
               <i class="fas fa-code"></i>
@@ -141,12 +141,12 @@ class Resume extends Component {
             {/* course work */}
             <hr
               style={{
-                borderTop: "3px solid #332f2d",
-                width: "62%",
+                borderTop: "3px solid #493f3f",
+                width: "70%",
                 float: "right"
               }}
             />
-            <h3 style={{ color: "#332f2d" }}>Course Work</h3>
+            <h3 style={{ color: "#493f3f" }}>Course Work</h3>
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
@@ -167,12 +167,12 @@ class Resume extends Component {
             {/* languages */}
             <hr
               style={{
-                borderTop: "3px solid #332f2d",
-                width: "62%",
+                borderTop: "3px solid #493f3f",
+                width: "72%",
                 float: "right"
               }}
             />
-            <h3 style={{ color: "#332f2d" }}>languages</h3>
+            <h3 style={{ color: "#493f3f" }}>languages</h3>
             <div className="social-links-resume">
               <i class="fas fa-flag"></i>
             </div>
@@ -185,7 +185,7 @@ class Resume extends Component {
           {/* right col */}
           <Cell className="resume-right-col" col={8}>
             <br></br>
-            <h2 style={{ color: "#D2B3D8" }}>Professional Experiences</h2>
+            <h2 style={{ color: "#FFF1FC" }}>Professional Experiences</h2>
             <br></br>
             <Experience
               startMonth="Jun"
@@ -222,9 +222,9 @@ class Resume extends Component {
               jobDescription2="- Localized the movie subtitles datasets to a sentence aligned xml format, which is then recognized and separates the subtitles by time into smaller conversations"
               location="Waterloo, Canada"
             />
-            <hr style={{ borderTop: "3px solid #D2B3D8" }} />
+            <hr style={{ borderTop: "3px solid #FFF1FC" }} />
             <br></br>
-            <h2 style={{ color: "#D2B3D8" }}>Projects</h2>
+            <h2 style={{ color: "#FFF1FC" }}>Projects</h2>
             <br></br>
             <Experience
               startMonth="Jan"
