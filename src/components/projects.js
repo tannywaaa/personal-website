@@ -15,8 +15,7 @@ class Projects extends Component {
         <div style={{ background: "#DAD4DB", color: "black" }}>
           <div class="container">
             <br></br>
-            <br></br>
-            <br></br>
+
             <div class="row no-gutters">
               <div class="col-lg-6">
                 <a
@@ -141,17 +140,16 @@ class Projects extends Component {
             </div>
           </div>
           <br></br>
-          <br></br>
-          <br></br>
+
           <div style={{ background: "#493f3f", color: "black" }}>
             <div className="container">
               <section class="content-section">
                 <h3 id="p1">
                   <Card>
-                    <Card.Header style={{ background: "#CEC7CF" }}>
+                    <Card.Header style={{ background: "#DAD4DB" }}>
                       Become A Top Airbnb Earner
                     </Card.Header>
-                    <Card.Body style={{ background: "#DAD4DB" }}>
+                    <Card.Body style={{ background: "#ECE5ED" }}>
                       <p>
                         The goal for this project was to make recommandations
                         for the low earner hosts and make their listings more
@@ -196,10 +194,10 @@ class Projects extends Component {
                 <br></br>
                 <h3 id="p2">
                   <Card>
-                    <Card.Header style={{ background: "#CEC7CF" }}>
+                    <Card.Header style={{ background: "#DAD4DB" }}>
                       Gigs
                     </Card.Header>
-                    <Card.Body style={{ background: "#DAD4DB" }}>
+                    <Card.Body style={{ background: "#ECE5ED" }}>
                       <p>
                         Gigs is an online platform that connects gigs employers
                         and workers. Gigs employers and workers have to setup
@@ -266,10 +264,10 @@ class Projects extends Component {
                 <br></br>
                 <h3 id="p3">
                   <Card>
-                    <Card.Header style={{ background: "#CEC7CF" }}>
+                    <Card.Header style={{ background: "#DAD4DB" }}>
                       Treeki
                     </Card.Header>
-                    <Card.Body style={{ background: "#DAD4DB" }}>
+                    <Card.Body style={{ background: "#ECE5ED" }}>
                       <p>
                         Treeki is an Android app that asks users a random
                         question every day of the year, and the question will
@@ -330,10 +328,10 @@ class Projects extends Component {
                 <br></br>
                 <h3 id="p4">
                   <Card>
-                    <Card.Header style={{ background: "#CEC7CF" }}>
+                    <Card.Header style={{ background: "#DAD4DB" }}>
                       Lecture Poll
                     </Card.Header>
-                    <Card.Body style={{ background: "#DAD4DB" }}>
+                    <Card.Body style={{ background: "#ECE5ED" }}>
                       <p>
                         The idea of this website is to allow instructors to
                         quickly and easily poll people for answers on test

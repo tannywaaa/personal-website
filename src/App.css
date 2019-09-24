@@ -192,9 +192,36 @@
 /* About me Section
 --------------------------------*/
 .me-img {
-  height: 1000px;
-  padding-top: 15em;
-  padding-left: 6em;
+  height: 750px;
+  padding-top: 6em;
+  padding-left: 1em;
   opacity: 1;
   float: left;
+}
+
+.about-text {
+  opacity: 1;
+  width: 75%;
+  border-radius: 10px;
+}
+
+.about-text h1 {
+  padding-top: 1em;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Kalam", cursive;
+}
+
+.about-text p {
+  color: black;
+  font-size: 20px;
+  padding-top: 40px;
+  font-family: "Kalam", cursive;
 }
