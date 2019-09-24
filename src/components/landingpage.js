@@ -25,7 +25,7 @@ class Landing extends Component {
       <div
         id="dummy"
         className="demo-big-content"
-        style={{ width: "100%", height: "803px" }}
+        style={{ width: "100%", height: "802px" }}
       >
         <Grid>
           <Cell col={12}>

@@ -193,7 +193,6 @@ class Resume extends Component {
               year={2018}
               jobName="Internship, Bioinformatics Solutions Inc."
               jobDescription1="- Edited and redesigned the website by cooperating with the development team"
-              jobDescription2="- Used HTML and CSS to build a new website in Mandarin"
               location="Waterloo, Canada"
             />
             <Experience
