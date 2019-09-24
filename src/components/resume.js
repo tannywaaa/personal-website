@@ -8,7 +8,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid style={{ background: "#FFF1FC", color: "black" }}>
+        <Grid style={{ background: "#DAD4DB", color: "black" }}>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img src={Profile2} alt="avatar" style={{ height: "200px" }} />
@@ -185,7 +185,7 @@ class Resume extends Component {
           {/* right col */}
           <Cell className="resume-right-col" col={8}>
             <br></br>
-            <h2 style={{ color: "#FFF1FC" }}>Professional Experiences</h2>
+            <h2 style={{ color: "#DAD4DB" }}>Professional Experiences</h2>
             <br></br>
             <Experience
               startMonth="Jun"
@@ -222,9 +222,9 @@ class Resume extends Component {
               jobDescription2="- Localized the movie subtitles datasets to a sentence aligned xml format, which is then recognized and separates the subtitles by time into smaller conversations"
               location="Waterloo, Canada"
             />
-            <hr style={{ borderTop: "3px solid #FFF1FC" }} />
+            <hr style={{ borderTop: "3px solid #DAD4DB" }} />
             <br></br>
-            <h2 style={{ color: "#FFF1FC" }}>Projects</h2>
+            <h2 style={{ color: "#DAD4DB" }}>Projects</h2>
             <br></br>
             <Experience
               startMonth="Jan"

@@ -11,7 +11,7 @@ import { Grid, Cell } from "react-mdl";
 class Projects extends Component {
   render() {
     return (
-      <div style={{ background: "#FFF1FC", color: "black" }}>
+      <div style={{ background: "#DAD4DB", color: "black" }}>
         <div class="container">
           <br></br>
           <br></br>
