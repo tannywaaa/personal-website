@@ -184,7 +184,7 @@ class Projects extends Component {
                       </p>
                       <div class="d-flex justify-content-around">
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://github.com/tonyman316/Become_a_Top_Airbnb_Earner"
                         >
                           Github
@@ -248,13 +248,13 @@ class Projects extends Component {
                       </Grid>
                       <div class="d-flex justify-content-around">
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://github.com/chdgriff/gigsapp"
                         >
                           Github
                         </Button>
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://gigsapp-115.herokuapp.com"
                         >
                           Web Demo
@@ -312,13 +312,13 @@ class Projects extends Component {
                       </p>
                       <div class="d-flex justify-content-around">
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://github.com/ktbeck/Treeki"
                         >
                           Github
                         </Button>
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://www.youtube.com/watch?v=-m2fkFefGNk"
                         >
                           Video Demo
@@ -372,13 +372,13 @@ class Projects extends Component {
                       </p>
                       <div class="d-flex justify-content-around">
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://github.com/AlexSm9/Spr2018_WebApp_Group_Project"
                         >
                           Github
                         </Button>
                         <Button
-                          variant="outline-danger"
+                          variant="outline-secondary"
                           href="https://tanny.pythonanywhere.com/finalversion2"
                         >
                           Web Demo
