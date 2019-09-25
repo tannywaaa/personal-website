@@ -36,20 +36,18 @@ class About extends Component {
                 </h2>
                 <p>
                   Welcome to the least boring page. My name is Tangni Wang but I
-                  go by Tanny as well. Don't hesitate when you see two names
-                  with the same face, they are both me. I just recently
-                  graduated from University of California, Santa Cruz, majoring
-                  in Computer Science. Strangers think I'm quiet. Friends think
-                  I'm outgoing. My best friend thinks I'm crazy.
+                  go by Tanny as well. I just recently graduated from University
+                  of California, Santa Cruz, majoring in Computer Science.
+                  Strangers think I'm quiet. Friends think I'm outgoing. My best
+                  friend thinks I'm crazy.
                   <br></br>
-                  <br></br>I am very desperate for a job in my major related
-                  fields. So if you are a recuiter or you know somone that needs
-                  a hard working and not too crazy girl to make you team or your
-                  company a little better, PLEASE PLEASE click on the button
-                  below to check out my resume and contact me. I am laying on
-                  the couch all day just to wait for your call and email. If you
-                  want to make my day better and possibly make your day better
-                  too, hire me!
+                  <br></br>I seek a stimulating and challenging work environment
+                  where I can utilize my passion and software development skills
+                  to advance my employer's objectives and build my knowledge of
+                  software technologies and applications. If you are a recuiter
+                  or you know somone that needs a passionate, hard working and
+                  not too crazy girl to join your team, feel free to click on
+                  the button below to check out my resume and contact me.
                 </p>
                 <br></br>
                 <Button
