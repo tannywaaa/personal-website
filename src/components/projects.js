@@ -37,7 +37,7 @@ class Projects extends Component {
                           marginTop: "10px"
                         }}
                         variant="outline-light"
-                        href="#p1"
+                        href="https://github.com/tonyman316/Become_a_Top_Airbnb_Earner"
                         rel="noopener noreferrer"
                       >
                         Read More
@@ -184,6 +184,8 @@ class Projects extends Component {
                         <Button
                           variant="outline-secondary"
                           href="https://github.com/tonyman316/Become_a_Top_Airbnb_Earner"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Github
                         </Button>
@@ -248,12 +250,16 @@ class Projects extends Component {
                         <Button
                           variant="outline-secondary"
                           href="https://github.com/chdgriff/gigsapp"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Github
                         </Button>
                         <Button
                           variant="outline-secondary"
                           href="https://gigsapp-115.herokuapp.com"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Web Demo
                         </Button>
@@ -312,12 +318,16 @@ class Projects extends Component {
                         <Button
                           variant="outline-secondary"
                           href="https://github.com/ktbeck/Treeki"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Github
                         </Button>
                         <Button
                           variant="outline-secondary"
                           href="https://www.youtube.com/watch?v=-m2fkFefGNk"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Video Demo
                         </Button>
@@ -372,12 +382,16 @@ class Projects extends Component {
                         <Button
                           variant="outline-secondary"
                           href="https://github.com/AlexSm9/Spr2018_WebApp_Group_Project"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Github
                         </Button>
                         <Button
                           variant="outline-secondary"
                           href="https://tanny.pythonanywhere.com/finalversion2"
+                          rel="noopener noreferrer"
+                          target="_blank"
                         >
                           Web Demo
                         </Button>
