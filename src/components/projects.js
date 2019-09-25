@@ -39,6 +39,7 @@ class Projects extends Component {
                         }}
                         variant="outline-light"
                         href="#p1"
+                        rel="noopener noreferrer"
                       >
                         Read More
                       </Button>
