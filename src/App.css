@@ -194,7 +194,7 @@
 .me-img {
   height: 750px;
   padding-top: 6em;
-  padding-left: 1em;
+  /* padding-left: 0.5em; */
   opacity: 1;
   float: left;
 }

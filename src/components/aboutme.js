@@ -10,10 +10,10 @@ class About extends Component {
       <div>
         <div style={{ background: "#DAD4DB", color: "black" }}>
           <Grid>
-            <Cell col={5}>
+            <Cell col={6}>
               <img src={Profile} alt="avatar" className="me-img" />
             </Cell>
-            <Cell col={7}>
+            <Cell col={6}>
               <div className="about-text">
                 <h1>
                   <Badge variant="danger" className="about-header">
@@ -25,7 +25,7 @@ class About extends Component {
                     variant="dark"
                     className="about-header"
                     style={{
-                      paddingRight: "180px",
+                      paddingRight: "150px",
                       paddingTop: "35px",
                       paddingBottom: "35px",
                       paddingLeft: "30px"

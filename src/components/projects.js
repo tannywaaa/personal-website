@@ -20,6 +20,7 @@ class Projects extends Component {
               <div class="col-lg-6">
                 <a
                   class="portfolio-item"
+                  href="https://github.com/tonyman316/Become_a_Top_Airbnb_Earner"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -37,7 +38,7 @@ class Projects extends Component {
                           marginTop: "10px"
                         }}
                         variant="outline-light"
-                        href="https://github.com/tonyman316/Become_a_Top_Airbnb_Earner"
+                        href="#p1"
                         rel="noopener noreferrer"
                       >
                         Read More
