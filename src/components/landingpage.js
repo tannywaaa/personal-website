@@ -55,7 +55,7 @@ class Landing extends Component {
                 </Button>
                 {/* resume */}
                 <a
-                  href="https://www.dropbox.com/s/04nnw2wtj59e7kn/spring_resume-7.pdf?dl=0"
+                  href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

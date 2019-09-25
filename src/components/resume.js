@@ -25,9 +25,16 @@ class Resume extends Component {
             <h4 style={{ textAlign: "center" }}>
               Recent Graduate,<br></br>Software Engineer
             </h4>
-            <br></br>
+            <p style={{ textAlign: "center" }}>
+              <a
+                href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"
+                target="_blank"
+              >
+                Download Resume{" "}
+              </a>
+            </p>
             {/* objective */}
-            <hr
+            {/* <hr
               style={{
                 borderTop: "3px solid #493f3f",
                 width: "74%",
@@ -40,7 +47,7 @@ class Resume extends Component {
               and will take substantially lower pay compare to competing
               applicants.
             </p>
-            <br></br>
+            <br></br> */}
             {/* education */}
             <hr
               style={{
@@ -184,7 +191,6 @@ class Resume extends Component {
           </Cell>
           {/* right col */}
           <Cell className="resume-right-col" col={8}>
-            <br></br>
             <h2 style={{ color: "#DAD4DB" }}>Professional Experiences</h2>
             <br></br>
             <Experience
@@ -223,7 +229,6 @@ class Resume extends Component {
               location="Waterloo, Canada"
             />
             <hr style={{ borderTop: "3px solid #DAD4DB" }} />
-            <br></br>
             <h2 style={{ color: "#DAD4DB" }}>Projects</h2>
             <br></br>
             <Experience
