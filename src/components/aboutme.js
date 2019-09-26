@@ -82,18 +82,21 @@ class About extends Component {
                 >
                   Hire Me
                 </Button>
-                <Link style={{ fontFamily: "Kalam", color: "white" }} to="/contact">
-                <Button
-                  variant="outline-danger"
-                  style={{
-                    width: "30%",
-                    fontSize: " 15px",
-                    padding: "6px"
-                  }}
+                <Link
+                  style={{ fontFamily: "Kalam", color: "white" }}
+                  to="/contact"
                 >
-                  Contact
-                </Button>
-                </link>
+                  <Button
+                    variant="outline-danger"
+                    style={{
+                      width: "30%",
+                      fontSize: " 15px",
+                      padding: "6px"
+                    }}
+                  >
+                    Contact
+                  </Button>
+                </Link>
               </div>
             </Cell>
           </Grid>
@@ -168,6 +171,7 @@ class About extends Component {
                 Contact
               </Button>
             </Link>
+            <p></p>{" "}
           </div>
         </div>
       </div>

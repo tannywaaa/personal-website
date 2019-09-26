@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Profile from "../img/profile.png";
 import { Button } from "react-bootstrap";
 import Profile2 from "../img/mobile-profile.png";
+import { Link } from "react-router-dom";
 
 class Landing extends Component {
   constructor() {
