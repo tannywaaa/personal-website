@@ -364,3 +364,15 @@
   padding-top: 40px;
   font-family: "Kalam", cursive;
 }
+
+.contact-text-mobile {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  color: white;
+}
+.contact-list-mobile i {
+  font-size: 20px;
+  padding-right: 1rem;
+
+  color: white;
+}
