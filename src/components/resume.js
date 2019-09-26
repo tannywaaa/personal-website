@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Experience from "./experience";
+import ExperienceM from "./experienceM";
 import Skills from "./skills";
 import Profile2 from "../img/profile2.png";
 
@@ -349,7 +350,7 @@ class Resume extends Component {
             <hr
               style={{
                 borderTop: "3px solid #493f3f",
-                width: "70%",
+                width: "68%",
                 float: "right"
               }}
             />
@@ -367,7 +368,7 @@ class Resume extends Component {
             <hr
               style={{
                 borderTop: "3px solid #493f3f",
-                width: "78%",
+                width: "74%",
                 float: "right"
               }}
             />
@@ -415,7 +416,7 @@ class Resume extends Component {
             <hr
               style={{
                 borderTop: "3px solid #493f3f",
-                width: "82%",
+                width: "80%",
                 float: "right"
               }}
             />
@@ -446,7 +447,7 @@ class Resume extends Component {
             <hr
               style={{
                 borderTop: "3px solid #493f3f",
-                width: "70%",
+                width: "58%",
                 float: "right"
               }}
             />
@@ -454,25 +455,29 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p>Software Engineering, Database Systems, Mobile Applications</p>
+            <p>Software Engineering, Database Systems</p>
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p>Web Applications, Artificial Intelligence, Operating Systems</p>
+            <p> Mobile Applications, Abstract Data Type</p>
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p>Computational Models, Analysis of Algorithms, Data Structures</p>
+            <p>Artificial Intelligence, Operating Systems</p>
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p>Data Structures, Computer Networking, Abstract Data Type</p>
+            <p>Computer Networking, Web Applications</p>
+            <div className="social-links-resume">
+              <i class="fas fa-book"></i>
+            </div>
+            <p>Computational Models, Data Structures</p>
             <br></br>
             {/* languages */}
             <hr
               style={{
                 borderTop: "3px solid #493f3f",
-                width: "72%",
+                width: "66%",
                 float: "right"
               }}
             />
@@ -490,82 +495,83 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2 style={{ color: "#DAD4DB" }}>Professional Experiences</h2>
             <br></br>
-            <Experience
+            <ExperienceM
               startMonth="Jun"
               endMonth="Aug"
               year={2018}
+              locationM="Waterloo, Canada"
               jobName="Internship, Bioinformatics Solutions Inc."
               jobDescription1="- Edited and redesigned the website by cooperating with the development team"
-              location="Waterloo, Canada"
             />
-            <Experience
+            <ExperienceM
               startMonth="Jan"
               endMonth="April"
               year={2018}
+              locationM="Santa Cruz, CA"
               jobName="Research Assistant, UCSC"
               jobDescription1="- Write Python programs to extract and cleaned messy data collected in text files, searched for keywords, removed duplicates and rewrote the data"
               jobDescription2="- Analyze the frequency of words that appear in the given data of blogs, texts and comments by varying strategies"
-              location="Santa Cruz, CA"
             />
-            <Experience
+            <ExperienceM
               startMonth="Mar"
               endMonth="Dec"
               year={2018}
+              locationM="Santa Cruz, CA"
               jobName="Tutor and Grader, Learning Support Services, UCSC"
               jobDescription1="- Worked as Small Group Tutor to help students with homework. Helped professor to grade midterms and finals for course: Introduction to Programming(Accelerated)"
               jobDescription2="- Tutored Course: Computational Models, Introduction to Programming(Accelerated)"
-              location="Santa Cruz, CA"
             />
-            <Experience
+            <ExperienceM
               startMonth="Jun"
               endMonth="Aug"
               year={2016}
+              locationM="Waterloo, Canada"
               jobName="Internship, RSVP Technologies Inc."
               jobDescription1="- Collected and analyzed data. Small programs written in Python to take the contents from information websites and sort them into text files with different categories"
               jobDescription2="- Localized the movie subtitles datasets to a sentence aligned xml format, which is then recognized and separates the subtitles by time into smaller conversations"
-              location="Waterloo, Canada"
             />
             <hr style={{ borderTop: "3px solid #DAD4DB" }} />
+            <br></br>
             <h2 style={{ color: "#DAD4DB" }}>Projects</h2>
             <br></br>
-            <Experience
+            <ExperienceM
               startMonth="Jan"
               endMonth="Mar"
               year={2019}
+              locationM="Python"
               jobName="Become A Top Airbnb Earner,AI"
               jobDescription1="- Analyzed the provided Seattle Airbnb data, separated data into training and testing sets and calculated top and low performers thresholds "
               jobDescription2="- Applied a stretch method Bayesian Ridge Regression and generated dot graph"
-              location="Python"
             />
-            <Experience
+            <ExperienceM
               startMonth="Oct"
               endMonth="Dec"
               year={2018}
+              locationM="Ruby on Rails"
               jobName="Gigs, Web Application"
               jobDescription1="- Designed and developed the front end for the website includes home page, post related pages, job request pages and proﬁle related pages "
               jobDescription2="- Developed the proﬁle pages with creating proﬁle, editing proﬁle and view other users' public proﬁle information. Created the user database and connected with proﬁle pages"
               link="https://gigsapp-115.herokuapp.com"
-              location="Ruby on Rails"
             />
-            <Experience
+            <ExperienceM
               startMonth="Apr"
               endMonth="Jun"
               year={2018}
+              locationM="Android Studio"
               jobName="Treeki, Android Application"
               jobDescription1="- Developed login, register by storing user information into database by using Firebase"
               jobDescription2="- Developed friends lists features such as searching friends from all users, adding friends with email and viewing friends' posts"
               link="Video Demo: https://www.youtube.com/watch?v=-m2fkFefGNk"
-              location="Android Studio"
             />
-            <Experience
+            <ExperienceM
               startMonth="May"
               endMonth="June"
               year={2018}
+              locationM="Web2py"
               jobName="Lecture Poll, Web Application"
               jobDescription1="- Developed and designed the front end for the website"
               jobDescription2="- Developed past question page that stores the old quizzes and sort them in order"
               link="https://tanny.pythonanywhere.com/finalversion2"
-              location="Web2py"
             />
           </Cell>
         </Grid>

@@ -12,7 +12,9 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div style={{ background: "#DAD4DB", color: "black" }}>
+        <div
+          style={{ background: "#DAD4DB", color: "black", paddingTop: "5%" }}
+        >
           <div class="container">
             <br></br>
 

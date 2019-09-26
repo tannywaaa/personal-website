@@ -7,7 +7,7 @@ class Contact extends Component {
     return (
       <div
         className="contact-body"
-        style={{ background: "#DAD4DB", color: "black" }}
+        style={{ background: "#DAD4DB", color: "black", paddingTop: "5%" }}
       >
         <Grid className="contact-grid">
           <Cell col={6}>
