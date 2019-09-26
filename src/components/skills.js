@@ -11,7 +11,7 @@ class Skills extends Component {
             <ProgressBar
               style={{
                 paddingTop: "4%",
-                width: "70%",
+                width: "50%",
                 margin: "auto"
               }}
               progress={this.props.progress}

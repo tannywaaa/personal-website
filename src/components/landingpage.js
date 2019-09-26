@@ -133,6 +133,7 @@ class Landing extends Component {
                   want to help me with my job search, feel free to click on the
                   contact button below :)
                 </p>
+                <br></br>
 
                 <div className="social-links-mobile">
                   {/* LinkedIn */}
