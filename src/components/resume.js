@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Experience from "./experience";
 import Skills from "./skills";
-import Profile2 from "../profile2.png";
+import Profile2 from "../img/profile2.png";
 
 class Resume extends Component {
   render() {

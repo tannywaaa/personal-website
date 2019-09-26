@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Profile from "../profile.png";
+import Profile from "../img/profile.png";
 import { Button } from "react-bootstrap";
-import Profile2 from "../profile2.png";
+import Profile2 from "../img/mobile-profile.png";
 
 class Landing extends Component {
   constructor() {
@@ -125,6 +125,7 @@ class Landing extends Component {
                   className="avatar-img-mobile"
                 />
                 <h1>Hello, I'm Tanny</h1>
+                <br></br>
                 <h2>Aspiring Software Engineer</h2>
                 <p>
                   Recent Graduate in Computer Science actively seeking for a
@@ -138,10 +139,10 @@ class Landing extends Component {
                   <Button
                     style={{
                       fontSize: " 15px",
-                      paddingTop: "10px",
+                      paddingTop: "18px",
                       marginRight: "15px"
                     }}
-                    variant="outline-light"
+                    variant="secondary"
                     href="/contact"
                   >
                     CONTACT

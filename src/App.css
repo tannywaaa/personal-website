@@ -85,26 +85,26 @@
   padding-top: 1em;
   font-size: 30px;
   font-weight: bold;
-  color: black;
+  color: #493f3f;
   font-family: "Permanent Marker", cursive;
 }
 
 .banner-text-mobile h2 {
-  color: black;
+  color: #493f3f;
   font-size: 20px;
   margin: auto;
   font-family: "Kalam", cursive;
 }
 
 .banner-text-mobile p {
-  color: black;
+  color: #493f3f;
   font-size: 18px;
   padding-top: 40px;
   font-family: "Kalam", cursive;
 }
 .social-links-mobile {
   padding-top: 10px;
-  color: black;
+  color: #493f3f;
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -114,8 +114,8 @@
 }
 
 .social-links-mobile i {
-  color: black;
-  font-size: 2em;
+  color: #493f3f;
+  font-size: 3em;
   padding: 8px;
 }
 /* Resume*/
@@ -302,8 +302,9 @@
 /* About me Section
 --------------------------------*/
 .me-img {
-  height: 750px;
-  padding-top: 6em;
+  height: 700px;
+  padding-top: 7em;
+  padding-left: 11em;
   /* padding-left: 0.5em; */
   opacity: 1;
   float: left;
