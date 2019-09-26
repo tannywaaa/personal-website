@@ -69,17 +69,21 @@ class Landing extends Component {
 
                 <div className="social-links">
                   {/* LinkedIn */}
-                  <Button
-                    style={{
-                      width: "30%",
-                      fontSize: " 20px",
-                      paddingTop: "28px"
-                    }}
-                    variant="outline-light"
-                    href="/contact"
+                  <Link
+                    style={{ fontFamily: "Kalam", color: "white" }}
+                    to="/contact"
                   >
-                    CONTACT
-                  </Button>
+                    <Button
+                      style={{
+                        width: "30%",
+                        fontSize: " 20px",
+                        paddingTop: "28px"
+                      }}
+                      variant="outline-light"
+                    >
+                      CONTACT
+                    </Button>
+                  </Link>
                   {/* resume */}
                   <a
                     href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"
@@ -137,17 +141,22 @@ class Landing extends Component {
 
                 <div className="social-links-mobile">
                   {/* LinkedIn */}
-                  <Button
-                    style={{
-                      fontSize: " 15px",
-                      paddingTop: "18px",
-                      marginRight: "15px"
-                    }}
-                    variant="secondary"
-                    href="/contact"
+                  <Link
+                    style={{ fontFamily: "Kalam", color: "white" }}
+                    to="/contact"
                   >
-                    CONTACT
-                  </Button>
+                    <Button
+                      style={{
+                        fontSize: " 15px",
+                        paddingTop: "18px",
+                        marginRight: "15px"
+                      }}
+                      variant="secondary"
+                      href="/contact"
+                    >
+                      CONTACT
+                    </Button>
+                  </Link>
                   {/* resume */}
                   <a
                     href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"

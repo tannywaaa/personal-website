@@ -82,9 +82,9 @@ class About extends Component {
                 >
                   Hire Me
                 </Button>
+                <Link style={{ fontFamily: "Kalam", color: "white" }} to="/contact">
                 <Button
                   variant="outline-danger"
-                  href="/contact"
                   style={{
                     width: "30%",
                     fontSize: " 15px",
@@ -93,6 +93,7 @@ class About extends Component {
                 >
                   Contact
                 </Button>
+                </link>
               </div>
             </Cell>
           </Grid>
@@ -158,7 +159,6 @@ class About extends Component {
             <Link style={{ fontFamily: "Kalam", color: "white" }} to="/contact">
               <Button
                 variant="outline-danger"
-                href="/contact"
                 style={{
                   width: "30%",
                   fontSize: " 15px",
