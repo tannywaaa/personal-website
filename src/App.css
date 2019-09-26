@@ -68,6 +68,56 @@
   padding: 8px;
 }
 
+/* landing mobile */
+.avatar-img-mobile {
+  height: 200px;
+  padding-top: 10%;
+  padding-left: 20%;
+}
+.banner-text-mobile {
+  opacity: 1;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text-mobile h1 {
+  padding-top: 1em;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+}
+
+.banner-text-mobile h2 {
+  color: black;
+  font-size: 20px;
+  margin: auto;
+  font-family: "Kalam", cursive;
+}
+
+.banner-text-mobile p {
+  color: black;
+  font-size: 18px;
+  padding-top: 40px;
+  font-family: "Kalam", cursive;
+}
+.social-links-mobile {
+  padding-top: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  float: left;
+  font-family: "Kalam", cursive;
+}
+
+.social-links-mobile i {
+  color: black;
+  font-size: 2em;
+  padding: 8px;
+}
 /* Resume*/
 .resume-right-col {
   background: #493f3f;
@@ -188,7 +238,20 @@
   justify-content: center;
   padding-top: 2em;
 }
-
+.contact-body2 {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.contact-bodyM {
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
 .contact-grid {
   text-align: center;
   justify-content: center;

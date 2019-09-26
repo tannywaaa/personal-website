@@ -1,14 +1,33 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Profile from "../img/profileme.png";
+import Profile from "../img/profileme.JPG";
 import { Badge } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
 class About extends Component {
-  render() {
+  constructor() {
+    super();
+    this.myRef = React.createRef();
+    this.state = {
+      width: window.innerWidth
+    };
+  }
+
+  componentWillMount() {
+    window.addEventListener("resize", this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
+
+  originalAboutMe() {
     return (
       <div>
-        <div style={{ background: "#DAD4DB", color: "black" }}>
+        <div
+          className="contact-body2"
+          style={{ background: "#DAD4DB", color: "black" }}
+        >
           <Grid>
             <Cell col={6}>
               <img src={Profile} alt="avatar" className="me-img" />
@@ -81,6 +100,24 @@ class About extends Component {
         </div>
       </div>
     );
+  }
+
+  mobileAboutMe() {
+    return (
+      <div>
+        <h2>Tyler #1</h2>
+      </div>
+    );
+  }
+
+  render() {
+    const { width } = this.state;
+    const isMobile = width <= 700;
+    if (!isMobile) {
+      return <div>{this.originalAboutMe()}</div>;
+    } else {
+      return <div>{this.mobileAboutMe()}</div>;
+    }
   }
 }
 
