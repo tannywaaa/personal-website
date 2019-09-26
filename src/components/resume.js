@@ -99,7 +99,7 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-phone-square"></i>
             </div>
-            <p>(123) 456-7890</p>
+            <p>(831) 419-3981</p>
             <div className="social-links-resume">
               <a
                 href="https://www.linkedin.com/in/tangni-wang/"
@@ -380,7 +380,7 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-phone-square"></i>
             </div>
-            <p>(123) 456-7890</p>
+            <p>(831) 419-3981</p>
             <div className="social-links-resume">
               <a
                 href="https://www.linkedin.com/in/tangni-wang/"
