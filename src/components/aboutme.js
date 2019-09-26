@@ -29,10 +29,10 @@ class About extends Component {
           style={{ background: "#DAD4DB", color: "black" }}
         >
           <Grid>
-            <Cell col={6}>
+            <Cell col={5}>
               <img src={Profile} alt="avatar" className="me-img" />
             </Cell>
-            <Cell col={6}>
+            <Cell col={7}>
               <div className="about-text">
                 <h1>
                   <Badge variant="danger" className="about-header">
@@ -44,10 +44,10 @@ class About extends Component {
                     variant="dark"
                     className="about-header"
                     style={{
-                      paddingRight: "150px",
-                      paddingTop: "35px",
-                      paddingBottom: "35px",
-                      paddingLeft: "30px"
+                      paddingRight: "100px",
+                      paddingTop: "20px",
+                      paddingBottom: "20px",
+                      paddingLeft: "20px"
                     }}
                   >
                     Tanny - Recent Computer Science Graduate
@@ -59,7 +59,6 @@ class About extends Component {
                   of California, Santa Cruz, majoring in Computer Science.
                   Strangers think I'm quiet. Friends think I'm outgoing. My best
                   friend thinks I'm crazy.
-                  <br></br>
                   <br></br>I seek a stimulating and challenging work environment
                   where I can utilize my passion and software development skills
                   to advance my employer's objectives and build my knowledge of
@@ -68,7 +67,6 @@ class About extends Component {
                   not too crazy girl to join your team, feel free to click on
                   the button below to check out my resume and contact me.
                 </p>
-                <br></br>
                 <Button
                   variant="outline-danger"
                   href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"
@@ -76,8 +74,8 @@ class About extends Component {
                   target="_blank"
                   style={{
                     width: "30%",
-                    fontSize: " 20px",
-                    padding: "10px",
+                    fontSize: " 15px",
+                    padding: "6px",
                     marginRight: "30%"
                   }}
                 >
@@ -88,8 +86,8 @@ class About extends Component {
                   href="/contact"
                   style={{
                     width: "30%",
-                    fontSize: " 20px",
-                    padding: "10px"
+                    fontSize: " 15px",
+                    padding: "6px"
                   }}
                 >
                   Contact
