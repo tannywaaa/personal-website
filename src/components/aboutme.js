@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Profile from "../img/profileme.JPG";
 import { Badge } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   constructor() {
@@ -138,7 +139,6 @@ class About extends Component {
                 working and not too crazy girl to join your team, feel free to
                 click on the button below to check out my resume and contact me.
               </p>
-              <br></br>
             </div>
             <Button
               variant="outline-danger"
@@ -149,22 +149,25 @@ class About extends Component {
                 width: "30%",
                 fontSize: " 15px",
                 padding: "6px",
-                marginRight: "30%"
+                marginRight: "30%",
+                fontFamily: "Kalam"
               }}
             >
               Hire Me
             </Button>
-            <Button
-              variant="outline-danger"
-              href="/contact"
-              style={{
-                width: "30%",
-                fontSize: " 15px",
-                padding: "6px"
-              }}
-            >
-              Contact
-            </Button>
+            <Link style={{ fontFamily: "Kalam", color: "white" }} to="/contact">
+              <Button
+                variant="outline-danger"
+                href="/contact"
+                style={{
+                  width: "30%",
+                  fontSize: " 15px",
+                  padding: "6px"
+                }}
+              >
+                Contact
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
