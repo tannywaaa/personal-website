@@ -76,7 +76,6 @@ class Landing extends Component {
                   >
                     <Button
                       style={{
-                        width: "30%",
                         fontSize: " 20px",
                         paddingTop: "28px"
                       }}
