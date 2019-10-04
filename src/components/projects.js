@@ -157,6 +157,7 @@ class Projects extends Component {
                         for the low earner hosts and make their listings more
                         profitable and gain more revenue than before.
                       </p>
+                      <p>Team size: 3 </p>
                       <p>My work:</p>
                       <p>
                         - Analyzed the provided Seattle Airbnb data, separated
@@ -209,6 +210,7 @@ class Projects extends Component {
                         trustfulness. Workers can post review and rate their
                         employers and vice versa.
                       </p>
+                      <p>Team size: 5 </p>
                       <p>My work:</p>
                       <p>
                         - Designed and developed the front end for the website
@@ -284,6 +286,7 @@ class Projects extends Component {
                         person. Of course, on top of this, users can also use
                         the app as a normal diary app.
                       </p>
+                      <p>Team size: 5 </p>
                       <p>My work:</p>
                       <p>
                         - Developed login, register by storing user information
@@ -350,6 +353,7 @@ class Projects extends Component {
                         questions, quiz problems, or any other multiple-choice
                         questions the user may want to ask their audience.
                       </p>
+                      <p>Team size: 3 </p>
                       <p>My work:</p>
                       <p>
                         - Developed and designed the front end for the website{" "}
