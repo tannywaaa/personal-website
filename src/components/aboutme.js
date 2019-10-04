@@ -55,17 +55,16 @@ class About extends Component {
                   </Badge>
                 </h2>
                 <p>
-                  Welcome to the least boring page. My name is Tangni Wang but I
-                  go by Tanny as well. I just recently graduated from University
-                  of California, Santa Cruz, majoring in Computer Science.
+                  Welcome to the least boring page. My name is Tangni Wang, but I
+                  go by Tanny. I recently graduated from the University
+                  of California, Santa Cruz and received my bachelors in Computer Science.
                   Strangers think I'm quiet. Friends think I'm outgoing. My best
                   friend thinks I'm crazy.
-                  <br></br>I seek a stimulating and challenging work environment
+                  <br></br>I am seeking a stimulating and challenging work environment
                   where I can utilize my passion and software development skills
                   to advance my employer's objectives and build my knowledge of
                   software technologies and applications. If you are a recuiter
-                  or you know somone that needs a passionate, hard working and
-                  not too crazy girl to join your team, feel free to click on
+                  or you know somone that needs a passionate and hard working person to join your team, feel free to click on
                   the button below to check out my resume and contact me.
                 </p>
                 <Button
