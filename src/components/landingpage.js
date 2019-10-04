@@ -62,10 +62,9 @@ class Landing extends Component {
                 <h1>Hello, I'm Tanny</h1>
                 <h2>Aspiring Software Engineer</h2>
                 <p>
-                  Recent Graduate in Computer Science actively seeking for a
-                  job. Please stay on the site for as long as you want. If you
-                  want to help me with my job search, feel free to click on the
-                  contact button below :)
+                  Recent Graduate in Computer Science actively seeking a
+                  job. Stay on my website for as long as you want. If you
+                  want to contact, feel free to click on the button below.
                 </p>
 
                 <div className="social-links">
