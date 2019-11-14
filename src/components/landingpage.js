@@ -122,22 +122,12 @@ class Landing extends Component {
           <Grid>
             <Cell col={12}>
               <div className="banner-text-mobile">
-                <h1>Hello, I'm Tanny</h1>
-                <br></br>
-                <h2>Aspiring Software Engineer</h2>
                 <img
                   style={{ textAlign: "center" }}
                   src={Profile2}
                   alt="avatar"
                   className="avatar-img-mobile"
                 />
-                <p>
-                  Recent Graduate in Computer Science actively seeking a job.
-                  Stay on my website for as long as you want. If you want to
-                  contact, feel free to click on the button below.
-                </p>
-                <br></br>
-
                 <div className="social-links-mobile">
                   {/* LinkedIn */}
                   <Link
@@ -180,6 +170,18 @@ class Landing extends Component {
                     <i className="fab fa-github-square"></i>
                   </a>
                 </div>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <h1>Hello, I'm Tanny</h1>
+                <br></br>
+                <h2>Aspiring Software Engineer</h2>
+                <p>
+                  Recent Graduate in Computer Science actively seeking a job.
+                  Stay on my website for as long as you want. If you want to
+                  contact, feel free to click on the button below.
+                </p>
               </div>
             </Cell>
           </Grid>
