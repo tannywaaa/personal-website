@@ -123,14 +123,15 @@ class Landing extends Component {
           <Grid>
             <Cell col={12}>
               <div className="banner-text-mobile">
+                <h1>Hello, I'm Tanny</h1>
+                <br></br>
+                <h2>Aspiring Software Engineer</h2>
                 <img
+                  style={{ textAlign: "center" }}
                   src={Profile2}
                   alt="avatar"
                   className="avatar-img-mobile"
                 />
-                <h1>Hello, I'm Tanny</h1>
-                <br></br>
-                <h2>Aspiring Software Engineer</h2>
                 <p>
                   Recent Graduate in Computer Science actively seeking for a
                   job. Please stay on the site for as long as you want. If you

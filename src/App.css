@@ -289,8 +289,10 @@
 
 /* mobile */
 .avatar-img-mobile {
+  padding-top: 0;
+  margin-top: 0;
   height: 200px;
-  padding-top: 10%;
+  /* padding-top: 5%; */
   padding-left: 20%;
 }
 .banner-text-mobile {
@@ -318,7 +320,7 @@
 .banner-text-mobile p {
   color: #493f3f;
   font-size: 18px;
-  padding-top: 40px;
+  padding-top: 20px;
   font-family: "Kalam", cursive;
 }
 .social-links-mobile {
