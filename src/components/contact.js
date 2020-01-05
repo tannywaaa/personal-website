@@ -31,7 +31,7 @@ class Contact extends Component {
             <br></br>
             <br></br>
             <br></br>
-            <h2>Tangni Wang</h2>
+            <h2>Tanny Wang</h2>
             <br></br>
             <img src={Profile2} alt="avatar" style={{ height: "250px" }} />
           </Cell>

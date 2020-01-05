@@ -25,8 +25,16 @@ class Landing extends Component {
   componentDidMount() {
     const { width } = this.state;
     const isMobile = width <= 700;
+    // if (!isMobile) {
+    //   this.effect = window.VANTA.DOTS({
+    //     el: "#dummy",
+    //     color: 0xff4a,
+    //     color2: 0x0,
+    //     backgroundColor: 0x0,
+    //     spacing: 30.0
+    //   });
     if (!isMobile) {
-      this.effect = window.VANTA.DOTS({
+      this.effect = window.VANTA.CLOUDS({
         el: "#dummy",
         color: 0xff4a,
         color2: 0x0,
@@ -58,7 +66,7 @@ class Landing extends Component {
           <Grid>
             <Cell col={12}>
               <div className="banner-text">
-                <img src={Profile} alt="avatar" className="avatar-img" />
+                <img src={Profile2} alt="avatar" className="avatar-img" />
                 <h1>Hello, I'm Tanny</h1>
                 <h2>Aspiring Software Engineer</h2>
                 <p>
@@ -78,7 +86,7 @@ class Landing extends Component {
                         fontSize: " 20px",
                         paddingTop: "28px"
                       }}
-                      variant="outline-light"
+                      variant="outline-dark"
                     >
                       CONTACT
                     </Button>

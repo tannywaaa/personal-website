@@ -16,7 +16,7 @@
 }
 
 .avatar-img {
-  height: 600px;
+  height: 480px;
   padding-top: 7em;
   opacity: 1;
   float: right;
@@ -53,7 +53,7 @@
 
 .social-links {
   padding-top: 40px;
-  color: white;
+  color: #000000;
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -63,7 +63,7 @@
 }
 
 .social-links i {
-  color: white;
+  color: #000000;
   font-size: 5em;
   padding: 8px;
 }
