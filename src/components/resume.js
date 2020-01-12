@@ -36,7 +36,7 @@ class Resume extends Component {
                 color: "#493f3f"
               }}
             >
-              Tangni Wang
+              Tanny Wang
             </h1>
             <h4 style={{ textAlign: "center" }}>
               Recent Graduate,<br></br>Software Engineer
@@ -81,7 +81,7 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-user-graduate"></i>
             </div>
-            <p>Computer Science, B.S., June 2019</p>
+            <p>Computer Science, B.S.</p>
             <br></br>
             {/* contact */}
             <hr
@@ -140,28 +140,49 @@ class Resume extends Component {
               }}
             />
             <h3 style={{ color: "#493f3f" }}>Skills</h3>
-            <Skills skill="Most Experienced" progress={100} />
-            <div className="social-links-resume">
-              <i class="fas fa-code"></i>
-            </div>
-            <p style={{ paddingLeft: "5%" }}> Python, Java</p>
-            <Skills skill="Less Experienced" progress={70} />
-            <div className="social-links-resume">
-              <i class="fas fa-code"></i>
-            </div>
-            <p style={{ paddingLeft: "5%" }}>JavaScript, MySQL, C, HTML, CSS</p>
-            <Skills skill="Platform Used" progress={80} />
+            <Skills skill="Proficient" progress={100} />
             <div className="social-links-resume">
               <i class="fas fa-code"></i>
             </div>
             <p style={{ paddingLeft: "5%" }}>
-              React, Ruby, Unix, Latex, Git, Bootstrap
+              {" "}
+              Python (2 years), Java (2 years)
             </p>
+            <Skills skill="Web Dev" progress={90} />
             <div className="social-links-resume">
               <i class="fas fa-code"></i>
             </div>
-            <p style={{ paddingLeft: "5%" }}>Android Studio, Web2py</p>
+            <p style={{ paddingLeft: "5%" }}>JavaScript, HTML, CSS, ReactJS</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>
+              Ruby on Rails, Bootstrap, Web2Py
+            </p>
+            <Skills skill="Database" progress={70} />
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>MySQL, MySQL Workbench</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>PostgreSQL, Firebase</p>
+            <Skills skill="Other" progress={70} />
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>C, C++, Unix, Latex, Git</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>Android Studio, Shell Scripting</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>Jupyter Notebook, Django</p>
             <br></br>
+
             {/* course work */}
             <hr
               style={{
@@ -190,11 +211,11 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p>Computational Models, Data Structures</p>
+            <p>Analysis of Algorithms, Data Structures</p>
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p> Analysis of Algorithms</p>
+            <p>Intro to Networking and the Internet</p>
             <br></br>
             {/* languages */}
             <hr
@@ -219,82 +240,92 @@ class Resume extends Component {
             <h2 style={{ color: "#DAD4DB" }}>Professional Experiences</h2>
             <br></br>
             <Experience
+              startMonth="Dec. 2019"
+              endMonth="Present"
+              jobName="Internship, Infinite Options LLC."
+              jobDescription1="- Implemented the frontend and database of website www.preptoyourdoor.com using HTML, CSS, JavaScript, React and MySQL and tested for possible issues"
+              location="San Jose, CA"
+            />
+            <Experience
               startMonth="Jun"
               endMonth="Aug"
               year={2018}
               jobName="Internship, Bioinformatics Solutions Inc."
-              jobDescription1="- Edited and redesigned the website by cooperating with the development team"
-              location="Waterloo, Canada"
-            />
-            <Experience
-              startMonth="Jan"
-              endMonth="April"
-              year={2018}
-              jobName="Research Assistant, UCSC"
-              jobDescription1="- Write Python programs to extract and cleaned messy data collected in text files, searched for keywords, removed duplicates and rewrote the data"
-              jobDescription2="- Analyze the frequency of words that appear in the given data of blogs, texts and comments by varying strategies"
-              location="Santa Cruz, CA"
-            />
-            <Experience
-              startMonth="Mar"
-              endMonth="Dec"
-              year={2018}
-              jobName="Tutor and Grader, Learning Support Services, UCSC"
-              jobDescription1="- Worked as Small Group Tutor to help students with homework. Helped professor to grade midterms and finals for course: Introduction to Programming(Accelerated)"
-              jobDescription2="- Tutored Course: Computational Models, Introduction to Programming(Accelerated)"
-              location="Santa Cruz, CA"
+              jobDescription1="- Replaced company’s website design from Wix by using HTML,
+              CSS and JavaScript and tested for possible issues"
+              location="Waterloo, ON"
             />
             <Experience
               startMonth="Jun"
               endMonth="Aug"
               year={2016}
               jobName="Internship, RSVP Technologies Inc."
-              jobDescription1="- Collected and analyzed data. Small programs written in Python to take the contents from information websites and sort them into text files with different categories"
-              jobDescription2="- Localized the movie subtitles datasets to a sentence aligned xml format, which is then recognized and separates the subtitles by time into smaller conversations"
-              location="Waterloo, Canada"
+              jobDescription1="- Used web script with Python libraries to parse data into individual text files"
+              jobDescription2="- Localized movie subtitles datasets to a sentence aligned xml format, which is then recognized and separated by time into smaller conversations"
+              location="Waterloo, ON"
             />
+            <Experience
+              startMonth="Mar. 2018"
+              endMonth="Dec"
+              year={2019}
+              jobName="Tutor and Grader, UCSC"
+              jobDescription1="- Write unit tests in C and shell scripts to determine the correctness of student programs. Adopt script to automatically send students email on grade information and merge csv files of students’ scores online.              "
+              jobDescription2="- Courses: Data Structures, Abstract Data Type, Computational
+              Models, Introduction to Programming(Accelerated)"
+              location="Santa Cruz, CA"
+            />
+            <Experience
+              startMonth="Jan"
+              endMonth="April"
+              year={2018}
+              jobName="Research Assistant, UCSC"
+              jobDescription1="- Created Python scripts to extract and clean raw data collected in text files by searching for keywords, removing duplicates and rewriting data"
+              jobDescription2="-  Analyzed frequency of words appearing in provided data of blogs, texts and comments by applying unigram, bigram and trigram"
+              location="Santa Cruz, CA"
+            />
+
             <hr style={{ borderTop: "3px solid #DAD4DB" }} />
             <br></br>
             <h2 style={{ color: "#DAD4DB" }}>Projects</h2>
             <br></br>
-            <Experience
-              startMonth="Jan"
-              endMonth="Mar"
-              year={2019}
-              jobName="Become A Top Airbnb Earner,AI"
-              jobDescription1="- Analyzed the provided Seattle Airbnb data, separated data into training and testing sets and calculated top and low performers thresholds "
-              jobDescription2="- Applied a stretch method Bayesian Ridge Regression and generated dot graph"
-              location="Python"
-            />
+
             <Experience
               startMonth="Oct"
               endMonth="Dec"
               year={2018}
               jobName="Gigs, Web Application"
-              jobDescription1="- Designed and developed the front end for the website includes home page, post related pages, job request pages and proﬁle related pages "
-              jobDescription2="- Developed the proﬁle pages with creating proﬁle, editing proﬁle and view other users' public proﬁle information. Created the user database and connected with proﬁle pages"
+              jobDescription1="- Designed and developed the front-end for the website includes home page, post related pages, job request pages and profile related pages "
+              jobDescription2="- Collected and organized the database for users and posts for the entire website"
               link="https://gigsapp-115.herokuapp.com"
               location="Ruby on Rails"
-            />
-            <Experience
-              startMonth="Apr"
-              endMonth="Jun"
-              year={2018}
-              jobName="Treeki, Android Application"
-              jobDescription1="- Developed login, register by storing user information into database by using Firebase"
-              jobDescription2="- Developed friends lists features such as searching friends from all users, adding friends with email and viewing friends' posts"
-              link="Video Demo: https://www.youtube.com/watch?v=-m2fkFefGNk"
-              location="Android Studio"
             />
             <Experience
               startMonth="May"
               endMonth="June"
               year={2018}
               jobName="Lecture Poll, Web Application"
-              jobDescription1="- Developed and designed the front end for the website"
-              jobDescription2="- Developed past question page that stores the old quizzes and sort them in order"
+              jobDescription1="Designed and created the front-end of the website mainly using HTML, CSS and Javascript. The website includes 4 HTML views for both students and teachers sites"
               link="https://tanny.pythonanywhere.com/finalversion2"
               location="Web2py"
+            />
+            <Experience
+              startMonth="Jan"
+              endMonth="Mar"
+              year={2019}
+              jobName="Become A Top Airbnb Earner,AI"
+              jobDescription1="- Analyzed the provided Seattle Airbnb data, separated data into training and testing sets and calculated top and low performers thresholds"
+              jobDescription2="-  Applied a stretch method Bayesian Ridge Regression and gen- erated dot graph"
+              location="Python"
+            />
+            <Experience
+              startMonth="Apr"
+              endMonth="Jun"
+              year={2018}
+              jobName="Treeki, Android Application"
+              jobDescription1="- Developed login, register by storing user information into database using Firebase"
+              jobDescription2="- Collaborated on friends lists features such as searching friends from all users, adding friends with email and viewing friends’ posts"
+              link="Video Demo: https://www.youtube.com/watch?v=-m2fkFefGNk"
+              location="Android Studio"
             />
           </Cell>
         </Grid>
@@ -420,28 +451,49 @@ class Resume extends Component {
                 float: "right"
               }}
             />
+
             <h3 style={{ color: "#493f3f" }}>Skills</h3>
-            <Skills skill="Most Experienced" progress={100} />
-            <div className="social-links-resume">
-              <i class="fas fa-code"></i>
-            </div>
-            <p style={{ paddingLeft: "5%" }}> Python, Java</p>
-            <Skills skill="Less Experienced" progress={70} />
-            <div className="social-links-resume">
-              <i class="fas fa-code"></i>
-            </div>
-            <p style={{ paddingLeft: "5%" }}>JavaScript, MySQL, C, HTML, CSS</p>
-            <Skills skill="Platform Used" progress={80} />
+            <Skills skill="Proficient" progress={100} />
             <div className="social-links-resume">
               <i class="fas fa-code"></i>
             </div>
             <p style={{ paddingLeft: "5%" }}>
-              React, Ruby, Unix, Latex, Git, Bootstrap
+              {" "}
+              Python (2 years), Java (2 years)
             </p>
+            <Skills skill="Web Dev" progress={90} />
             <div className="social-links-resume">
               <i class="fas fa-code"></i>
             </div>
-            <p style={{ paddingLeft: "5%" }}>Android Studio, Web2py</p>
+            <p style={{ paddingLeft: "5%" }}>JavaScript, HTML, CSS, ReactJS</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>
+              Ruby on Rails, Bootstrap, Web2Py
+            </p>
+            <Skills skill="Database" progress={70} />
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>MySQL, MySQL Workbench</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>PostgreSQL, Firebase</p>
+            <Skills skill="Other" progress={70} />
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>C, C++, Unix, Latex, Git</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>Android Studio, Shell Scripting</p>
+            <div className="social-links-resume">
+              <i class="fas fa-code"></i>
+            </div>
+            <p style={{ paddingLeft: "5%" }}>Jupyter Notebook, Django</p>
             <br></br>
             {/* course work */}
             <hr
@@ -471,7 +523,11 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-book"></i>
             </div>
-            <p>Computational Models, Data Structures</p>
+            <p>Analysis of Algorithms, Data Structures</p>
+            <div className="social-links-resume">
+              <i class="fas fa-book"></i>
+            </div>
+            <p>Intro to Networking and the Internet</p>
             <br></br>
             {/* languages */}
             <hr
@@ -496,82 +552,90 @@ class Resume extends Component {
             <h2 style={{ color: "#DAD4DB" }}>Professional Experiences</h2>
             <br></br>
             <ExperienceM
+              startMonth="Dec. 2019"
+              endMonth="Present"
+              jobName="Internship, Infinite Options LLC."
+              jobDescription1="- Implemented the frontend and database of website www.preptoyourdoor.com using HTML, CSS, JavaScript, React and MySQL and tested for possible issues"
+              location="San Jose, CA"
+            />
+            <ExperienceM
               startMonth="Jun"
               endMonth="Aug"
               year={2018}
-              locationM="Waterloo, Canada"
               jobName="Internship, Bioinformatics Solutions Inc."
-              jobDescription1="- Edited and redesigned the website by cooperating with the development team"
-            />
-            <ExperienceM
-              startMonth="Jan"
-              endMonth="April"
-              year={2018}
-              locationM="Santa Cruz, CA"
-              jobName="Research Assistant, UCSC"
-              jobDescription1="- Write Python programs to extract and cleaned messy data collected in text files, searched for keywords, removed duplicates and rewrote the data"
-              jobDescription2="- Analyze the frequency of words that appear in the given data of blogs, texts and comments by varying strategies"
-            />
-            <ExperienceM
-              startMonth="Mar"
-              endMonth="Dec"
-              year={2018}
-              locationM="Santa Cruz, CA"
-              jobName="Tutor and Grader, Learning Support Services, UCSC"
-              jobDescription1="- Worked as Small Group Tutor to help students with homework. Helped professor to grade midterms and finals for course: Introduction to Programming(Accelerated)"
-              jobDescription2="- Tutored Course: Computational Models, Introduction to Programming(Accelerated)"
+              jobDescription1="- Replaced company’s website design from Wix by using HTML,
+              CSS and JavaScript and tested for possible issues"
+              location="Waterloo, ON"
             />
             <ExperienceM
               startMonth="Jun"
               endMonth="Aug"
               year={2016}
-              locationM="Waterloo, Canada"
               jobName="Internship, RSVP Technologies Inc."
-              jobDescription1="- Collected and analyzed data. Small programs written in Python to take the contents from information websites and sort them into text files with different categories"
-              jobDescription2="- Localized the movie subtitles datasets to a sentence aligned xml format, which is then recognized and separates the subtitles by time into smaller conversations"
+              jobDescription1="- Used web script with Python libraries to parse data into individual text files"
+              jobDescription2="- Localized movie subtitles datasets to a sentence aligned xml format, which is then recognized and separated by time into smaller conversations"
+              location="Waterloo, ON"
+            />
+            <ExperienceM
+              startMonth="Mar. 2018"
+              endMonth="Dec"
+              year={2019}
+              jobName="Tutor and Grader, UCSC"
+              jobDescription1="- Write unit tests in C and shell scripts to determine the correctness of student programs. Adopt script to automatically send students email on grade information and merge csv files of students’ scores online.              "
+              jobDescription2="- Courses: Data Structures, Abstract Data Type, Computational
+              Models, Introduction to Programming(Accelerated)"
+              location="Santa Cruz, CA"
+            />
+            <ExperienceM
+              startMonth="Jan"
+              endMonth="April"
+              year={2018}
+              jobName="Research Assistant, UCSC"
+              jobDescription1="- Created Python scripts to extract and clean raw data collected in text files by searching for keywords, removing duplicates and rewriting data"
+              jobDescription2="-  Analyzed frequency of words appearing in provided data of blogs, texts and comments by applying unigram, bigram and trigram"
+              location="Santa Cruz, CA"
             />
             <hr style={{ borderTop: "3px solid #DAD4DB" }} />
             <br></br>
             <h2 style={{ color: "#DAD4DB" }}>Projects</h2>
             <br></br>
             <ExperienceM
-              startMonth="Jan"
-              endMonth="Mar"
-              year={2019}
-              locationM="Python"
-              jobName="Become A Top Airbnb Earner,AI"
-              jobDescription1="- Analyzed the provided Seattle Airbnb data, separated data into training and testing sets and calculated top and low performers thresholds "
-              jobDescription2="- Applied a stretch method Bayesian Ridge Regression and generated dot graph"
-            />
-            <ExperienceM
               startMonth="Oct"
               endMonth="Dec"
               year={2018}
-              locationM="Ruby on Rails"
               jobName="Gigs, Web Application"
-              jobDescription1="- Designed and developed the front end for the website includes home page, post related pages, job request pages and proﬁle related pages "
-              jobDescription2="- Developed the proﬁle pages with creating proﬁle, editing proﬁle and view other users' public proﬁle information. Created the user database and connected with proﬁle pages"
+              jobDescription1="- Designed and developed the front-end for the website includes home page, post related pages, job request pages and profile related pages "
+              jobDescription2="- Collected and organized the database for users and posts for the entire website"
               link="https://gigsapp-115.herokuapp.com"
-            />
-            <ExperienceM
-              startMonth="Apr"
-              endMonth="Jun"
-              year={2018}
-              locationM="Android Studio"
-              jobName="Treeki, Android Application"
-              jobDescription1="- Developed login, register by storing user information into database by using Firebase"
-              jobDescription2="- Developed friends lists features such as searching friends from all users, adding friends with email and viewing friends' posts"
-              link="Video Demo: https://www.youtube.com/watch?v=-m2fkFefGNk"
+              location="Ruby on Rails"
             />
             <ExperienceM
               startMonth="May"
               endMonth="June"
               year={2018}
-              locationM="Web2py"
               jobName="Lecture Poll, Web Application"
-              jobDescription1="- Developed and designed the front end for the website"
-              jobDescription2="- Developed past question page that stores the old quizzes and sort them in order"
+              jobDescription1="Designed and created the front-end of the website mainly using HTML, CSS and Javascript. The website includes 4 HTML views for both students and teachers sites"
               link="https://tanny.pythonanywhere.com/finalversion2"
+              location="Web2py"
+            />
+            <ExperienceM
+              startMonth="Jan"
+              endMonth="Mar"
+              year={2019}
+              jobName="Become A Top Airbnb Earner,AI"
+              jobDescription1="- Analyzed the provided Seattle Airbnb data, separated data into training and testing sets and calculated top and low performers thresholds"
+              jobDescription2="-  Applied a stretch method Bayesian Ridge Regression and gen- erated dot graph"
+              location="Python"
+            />
+            <ExperienceM
+              startMonth="Apr"
+              endMonth="Jun"
+              year={2018}
+              jobName="Treeki, Android Application"
+              jobDescription1="- Developed login, register by storing user information into database using Firebase"
+              jobDescription2="- Collaborated on friends lists features such as searching friends from all users, adding friends with email and viewing friends’ posts"
+              link="Video Demo: https://www.youtube.com/watch?v=-m2fkFefGNk"
+              location="Android Studio"
             />
           </Cell>
         </Grid>
