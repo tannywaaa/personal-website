@@ -582,8 +582,7 @@ class Resume extends Component {
               year={2019}
               jobName="Tutor and Grader, UCSC"
               jobDescription1="- Write unit tests in C and shell scripts to determine the correctness of student programs. Adopt script to automatically send students email on grade information and merge csv files of students’ scores online.              "
-              jobDescription2="- Courses: Data Structures, Abstract Data Type, Computational
-              Models, Introduction to Programming(Accelerated)"
+              jobDescription2="- Courses: Data Structures, Abstract Data Type, Computational Models, Introduction to Programming(Accelerated)"
               location="Santa Cruz, CA"
             />
             <ExperienceM
