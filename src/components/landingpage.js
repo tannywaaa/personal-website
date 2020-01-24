@@ -33,23 +33,23 @@ class Landing extends Component {
     //     backgroundColor: 0x0,
     //     spacing: 30.0
     //   });
-    if (!isMobile) {
-      this.effect = window.VANTA.CLOUDS({
-        el: "#dummy",
-        color: 0xff4a,
-        color2: 0x0,
-        backgroundColor: 0x0,
-        spacing: 30.0
-      });
-    } else {
-      this.effect = window.VANTA.CLOUDS({
-        el: "#dummy",
-        color: 0xff4a,
-        color2: 0x0,
-        backgroundColor: 0x0,
-        spacing: 30.0
-      });
-    }
+    // if (!isMobile) {
+    //   this.effect = window.VANTA.CLOUDS({
+    //     el: "#dummy",
+    //     color: 0xff4a,
+    //     color2: 0x0,
+    //     backgroundColor: 0x0,
+    //     spacing: 30.0
+    //   });
+    // } else {
+    //   this.effect = window.VANTA.CLOUDS({
+    //     el: "#dummy",
+    //     color: 0xff4a,
+    //     color2: 0x0,
+    //     backgroundColor: 0x0,
+    //     spacing: 30.0
+    //   });
+    // }
   }
   componentWillUnmount() {
     if (this.effect) this.effect.destroy();
