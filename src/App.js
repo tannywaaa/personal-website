@@ -19,7 +19,7 @@ class App extends Component {
               <Link
                 style={{
                   textDecoration: "none",
-                  color: "white",
+                  color: "#493f3f",
                   fontFamily: "Kalam"
                 }}
                 to="/"
@@ -30,10 +30,18 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/resume" style={{ color: "#493f3f" }}>
+                Resume
+              </Link>
+              <Link to="/projects" style={{ color: "#493f3f" }}>
+                Projects
+              </Link>
+              <Link to="/aboutme" style={{ color: "#493f3f" }}>
+                About Me
+              </Link>
+              <Link to="/contact" style={{ color: "#493f3f" }}>
+                Contact
+              </Link>
             </Navigation>
           </Header>
           <Drawer

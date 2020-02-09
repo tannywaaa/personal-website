@@ -1,17 +1,17 @@
 .header-color {
   font-family: "Kalam", cursive;
-  background: #000000; /* fallback for old browsers */
+  background: #dad4db; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #000000,
-    #000000,
-    #000000
+    #dad4db,
+    #dad4db,
+    #dad4db
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #000000,
-    #000000,
-    #000000
+    #dad4db,
+    #dad4db,
+    #dad4db
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -33,19 +33,19 @@
   padding-top: 2em;
   font-size: 60px;
   font-weight: bold;
-  color: white;
+  color: #493f3f;
   font-family: "Permanent Marker", cursive;
 }
 
 .banner-text h2 {
-  color: white;
+  color: #493f3f;
   font-size: 30px;
   margin: auto;
   font-family: "Kalam", cursive;
 }
 
 .banner-text p {
-  color: white;
+  color: #493f3f;
   font-size: 20px;
   padding-top: 40px;
   font-family: "Kalam", cursive;
@@ -53,7 +53,7 @@
 
 .social-links {
   padding-top: 40px;
-  color: #000000;
+  color: #493f3f;
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -63,7 +63,7 @@
 }
 
 .social-links i {
-  color: #000000;
+  color: #493f3f;
   font-size: 5em;
   padding: 8px;
 }
