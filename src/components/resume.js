@@ -350,7 +350,7 @@ class Resume extends Component {
                 color: "#493f3f"
               }}
             >
-              Tangni Wang
+              Tanny Wang
             </h1>
             <h4 style={{ textAlign: "center" }}>
               Recent Graduate,<br></br>Software Engineer
