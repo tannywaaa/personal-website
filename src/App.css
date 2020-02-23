@@ -344,26 +344,26 @@
   padding-top: 1em;
   font-size: 30px;
   font-weight: bold;
-  color: #493f3f;
+  color: black;
   font-family: "Pangolin";
 }
 
 .banner-text-mobile h2 {
-  color: #493f3f;
+  color: black;
   font-size: 20px;
   margin: auto;
   font-family: "Overlock";
 }
 
 .banner-text-mobile p {
-  color: #493f3f;
+  color: black;
   font-size: 18px;
   padding-top: 20px;
   font-family: "Overlock";
 }
 .social-links-mobile {
   padding-top: 10px;
-  color: #493f3f;
+  color: black;
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -373,7 +373,7 @@
 }
 
 .social-links-mobile i {
-  color: #493f3f;
+  color: black;
   font-size: 3em;
   padding: 8px;
 }
