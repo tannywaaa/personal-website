@@ -12,9 +12,9 @@ class Projects extends Component {
     return (
       <div>
         <div
-          style={{ background: "#DAD4DB", color: "black", paddingTop: "5%" }}
+          style={{ background: "#DAD4DB", color: "black", paddingTop: "7%" }}
         >
-          <div class="container">
+          <div class="container font1 font2">
             <br></br>
 
             <div class="row no-gutters">
@@ -146,7 +146,7 @@ class Projects extends Component {
           <div style={{ background: "#493f3f", color: "black" }}>
             <div className="container">
               <section class="content-section">
-                <h3 id="p1">
+                <h3 class="font2" id="p1">
                   <Card>
                     <Card.Header style={{ background: "#DAD4DB" }}>
                       Become A Top Airbnb Earner
@@ -197,7 +197,7 @@ class Projects extends Component {
                   </Card>
                 </h3>
                 <br></br>
-                <h3 id="p2">
+                <h3 class="font2" id="p2">
                   <Card>
                     <Card.Header style={{ background: "#DAD4DB" }}>
                       Gigs
@@ -272,7 +272,7 @@ class Projects extends Component {
                   </Card>
                 </h3>
                 <br></br>
-                <h3 id="p3">
+                <h3 class="font2" id="p3">
                   <Card>
                     <Card.Header style={{ background: "#DAD4DB" }}>
                       Treeki
@@ -341,7 +341,7 @@ class Projects extends Component {
                   </Card>
                 </h3>
                 <br></br>
-                <h3 id="p4">
+                <h3 class="font2" id="p4">
                   <Card>
                     <Card.Header style={{ background: "#DAD4DB" }}>
                       Lecture Poll

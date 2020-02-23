@@ -26,7 +26,7 @@ class About extends Component {
     return (
       <div>
         <div
-          className="contact-body2"
+          className="contact-body2 font1 font2"
           style={{ background: "#DAD4DB", color: "black" }}
         >
           <Grid>

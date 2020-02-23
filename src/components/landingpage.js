@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Profile from "../img/profile.png";
-import { Button } from "react-bootstrap";
 import Profile2 from "../img/mobile-profile.png";
-import { Link } from "react-router-dom";
 
 class Landing extends Component {
   constructor() {
@@ -71,13 +68,13 @@ class Landing extends Component {
                 <h2>Aspiring Software Engineer</h2>
                 <p>
                   Recent Graduate in Computer Science actively seeking a job.
-                  Stay on my website for as long as you want. If you want to
-                  contact, feel free to click on the button below.
+                  Stay on this website for as long as you want. If you want to
+                  contact me, feel free to click on the contact button below.
                 </p>
 
                 <div className="social-links">
                   {/* LinkedIn */}
-                  <Link
+                  {/* <Link
                     style={{ fontFamily: "Kalam", color: "white" }}
                     to="/contact"
                   >
@@ -90,14 +87,18 @@ class Landing extends Component {
                     >
                       CONTACT
                     </Button>
-                  </Link>
+                  </Link> */}
+                  <a href="/contact" rel="noopener noreferrer" target="_blank">
+                    <i class="fas fa-address-card" />
+                  </a>
+
                   {/* resume */}
                   <a
                     href="https://www.dropbox.com/s/pm6dpxk8dw3vejw/Tangni-Wang-l2.pdf?dl=0"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fas fa-user-tag"></i>
+                    <i class="fas fa-save" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tangni-wang/"
@@ -138,7 +139,7 @@ class Landing extends Component {
                 />
                 <div className="social-links-mobile">
                   {/* LinkedIn */}
-                  <Link
+                  {/* <Link
                     style={{ fontFamily: "Kalam", color: "white" }}
                     to="/contact"
                   >
@@ -153,14 +154,19 @@ class Landing extends Component {
                     >
                       CONTACT
                     </Button>
-                  </Link>
+                  </Link> */}
+                  {/* resume */}
+                  <a href="/contact" rel="noopener noreferrer" target="_blank">
+                    <i class="fas fa-address-card" />
+                  </a>
+
                   {/* resume */}
                   <a
-                    href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"
+                    href="https://www.dropbox.com/s/pm6dpxk8dw3vejw/Tangni-Wang-l2.pdf?dl=0"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fas fa-user-tag"></i>
+                    <i class="fas fa-save" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tangni-wang/"
@@ -182,14 +188,16 @@ class Landing extends Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                <h1>Hello, I'm Tanny</h1>
-                <br></br>
-                <h2>Aspiring Software Engineer</h2>
-                <p>
-                  Recent Graduate in Computer Science actively seeking a job.
-                  Stay on my website for as long as you want. If you want to
-                  contact, feel free to click on the button below.
-                </p>
+                <center>
+                  <h1>Hello, I'm Tanny</h1>
+                  <br></br>
+                  <h2>Aspiring Software Engineer</h2>
+                  <p>
+                    Recent Graduate in Computer Science actively seeking a job.
+                    Stay on this website for as long as you want. If you want to
+                    contact me, feel free to click on the contact button below.
+                  </p>
+                </center>
               </div>
             </Cell>
           </Grid>

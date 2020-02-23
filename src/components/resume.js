@@ -23,8 +23,10 @@ class Resume extends Component {
   };
   originalResume() {
     return (
-      <div>
-        <Grid style={{ background: "#DAD4DB", color: "black" }}>
+      <div class="font1 font2">
+        <Grid
+          style={{ background: "#DAD4DB", color: "black", paddingTop: "7%" }}
+        >
           <Cell col={3}>
             <div style={{ textAlign: "center" }}>
               <img src={Profile2} alt="avatar" style={{ height: "200px" }} />
@@ -335,7 +337,7 @@ class Resume extends Component {
 
   mobileResume() {
     return (
-      <div>
+      <div class="font1 font2">
         <Grid style={{ background: "#DAD4DB", color: "black" }}>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
@@ -393,7 +395,7 @@ class Resume extends Component {
             <div className="social-links-resume">
               <i class="fas fa-user-graduate"></i>
             </div>
-            <p>Computer Science, B.S., June 2019</p>
+            <p>Computer Science, B.S.</p>
             <br></br>
             {/* contact */}
             <hr
