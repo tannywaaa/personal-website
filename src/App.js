@@ -27,22 +27,24 @@ class App extends Component {
             <div class="">
               <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link " href="/resume">
+                  <Link class="nav-link " to="/resume">
                     Resume
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="/projects">
+                  <Link class="nav-link " to="/projects">
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="aboutme">
+                  <Link class="nav-link " to="/aboutme">
                     About Me
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/contact">Contact</Link>
+                  <Link class="nav-link " to="/contact">
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
