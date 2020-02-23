@@ -42,9 +42,7 @@ class App extends Component {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="contact">
-                    Contact
-                  </a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
