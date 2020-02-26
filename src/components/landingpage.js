@@ -63,7 +63,7 @@ class Landing extends Component {
           <Grid>
             <Cell col={12}>
               <div className="banner-text">
-                <img src={Profile2} alt="avatar" className="avatar-img" />
+                <img src={Profile2} className="avatar-img box bounce-7 stage" />
                 <h1>Hello, I'm Tanny</h1>
                 <h2>Aspiring Software Engineer</h2>
                 <p>
@@ -132,12 +132,19 @@ class Landing extends Component {
             <Cell col={12}>
               <div className="banner-text-mobile">
                 <img
-                  style={{ textAlign: "center" }}
+                  style={{
+                    textAlign: "center",
+                    height: "180px",
+                    width: "150px"
+                  }}
                   src={Profile2}
-                  alt="avatar"
-                  className="avatar-img-mobile"
+                  className="avatar-img-mobile box bounce-7 stage"
                 />
-                <div className="social-links-mobile">
+
+                <div
+                  className="social-links-mobile"
+                  style={{ marginLeft: "10%" }}
+                >
                   {/* LinkedIn */}
                   {/* <Link
                     style={{ fontFamily: "Kalam", color: "white" }}
