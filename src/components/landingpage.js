@@ -142,7 +142,16 @@ class Landing extends Component {
                   src={Profile2}
                   className="avatar-img-mobile box bounce-7 stage"
                 />
-
+                <center>
+                  <h1>Hello, I'm Tanny.</h1>
+                  <br></br>
+                  <h2>Aspiring Software Engineer</h2>
+                  <p>
+                    Recent Graduate in Computer Science actively seeking a job.
+                    Stay on this website for as long as you want. If you want to
+                    contact me, feel free to click on the contact button below.
+                  </p>
+                </center>
                 <div
                   className="social-links-mobile"
                   style={{ marginLeft: "10%" }}
@@ -175,7 +184,10 @@ class Landing extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i class="fas fa-save" />
+                    <i
+                      // onMouseOver={(e)=> {e.ele}}
+                      class="fas fa-save"
+                    />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tangni-wang/"
@@ -193,20 +205,6 @@ class Landing extends Component {
                     <i className="fab fa-github-square"></i>
                   </a>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <center>
-                  <h1>Hello, I'm Tanny.</h1>
-                  <br></br>
-                  <h2>Aspiring Software Engineer</h2>
-                  <p>
-                    Recent Graduate in Computer Science actively seeking a job.
-                    Stay on this website for as long as you want. If you want to
-                    contact me, feel free to click on the contact button below.
-                  </p>
-                </center>
               </div>
             </Cell>
           </Grid>
