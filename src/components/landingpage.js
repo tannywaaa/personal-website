@@ -64,7 +64,9 @@ class Landing extends Component {
             <Cell col={12}>
               <div className="banner-text">
                 <img src={Profile2} className="avatar-img box bounce-7 stage" />
-                <h1>Hello, I'm Tanny</h1>
+                <Cell col={6}>
+                  <h1>Hello , I'm Tanny.</h1>
+                </Cell>
                 <h2>Aspiring Software Engineer</h2>
                 <p>
                   Recent Graduate in Computer Science actively seeking a job.
@@ -196,7 +198,7 @@ class Landing extends Component {
                 <br></br>
                 <br></br>
                 <center>
-                  <h1>Hello, I'm Tanny</h1>
+                  <h1>Hello, I'm Tanny.</h1>
                   <br></br>
                   <h2>Aspiring Software Engineer</h2>
                   <p>
