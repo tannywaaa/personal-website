@@ -67,13 +67,16 @@ class Landing extends Component {
                 <Cell col={6}>
                   <h1>Hello , I'm Tanny.</h1>
                 </Cell>
+                <br />
                 <h2>Aspiring Software Engineer</h2>
-                <p>
-                  Recent Graduate in Computer Science actively seeking a job.
-                  Stay on this website for as long as you want. If you want to
-                  contact me, feel free to click on the contact button below.
-                </p>
-
+                <Cell col={8}>
+                  <p>
+                    Recent Graduate in Computer Science actively seeking a job.
+                    Stay on this website for as long as you want. If you want to
+                    contact me, feel free to click on the contact button below.
+                  </p>
+                </Cell>
+                <br />
                 <div className="social-links">
                   {/* LinkedIn */}
                   {/* <Link
