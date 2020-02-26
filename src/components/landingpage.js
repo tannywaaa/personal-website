@@ -91,7 +91,7 @@ class Landing extends Component {
                     </Button>
                   </Link> */}
                   <a href="/contact" rel="noopener noreferrer" target="_blank">
-                    <i class="fas fa-address-card" />
+                    <i class="far fa-address-card" />
                   </a>
 
                   {/* resume */}
@@ -100,14 +100,14 @@ class Landing extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i class="fas fa-save" />
+                    <i class="far fa-save" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tangni-wang/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                   {/* Github */}
                   <a
@@ -115,7 +115,7 @@ class Landing extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fab fa-github-square"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                 </div>
               </div>
@@ -132,7 +132,7 @@ class Landing extends Component {
         <div id="dummy" style={{ width: "100%", height: "100%" }}>
           <Grid>
             <Cell col={12}>
-              <div className="banner-text-mobile">
+              <div className="banner-text-mobile" style={{ marginTop: "15%" }}>
                 <img
                   style={{
                     textAlign: "center",
@@ -175,7 +175,7 @@ class Landing extends Component {
                   </Link> */}
                   {/* resume */}
                   <a href="/contact" rel="noopener noreferrer" target="_blank">
-                    <i class="fas fa-address-card" />
+                    <i class="far fa-address-card" />
                   </a>
 
                   {/* resume */}
@@ -186,7 +186,7 @@ class Landing extends Component {
                   >
                     <i
                       // onMouseOver={(e)=> {e.ele}}
-                      class="fas fa-save"
+                      class="far fa-save"
                     />
                   </a>
                   <a
@@ -194,7 +194,7 @@ class Landing extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
                   {/* Github */}
                   <a
@@ -202,7 +202,7 @@ class Landing extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fab fa-github-square"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                 </div>
               </div>
