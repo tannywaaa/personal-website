@@ -62,7 +62,7 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Drawer
-            style={{ backgroundColor: "#493f3f" }}
+            style={{ backgroundColor: "#2373A9" }}
             className="header-color-background"
             title={
               <Link style={{ fontFamily: "Pangolin", color: "white" }} to="/">

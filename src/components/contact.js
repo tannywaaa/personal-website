@@ -23,8 +23,8 @@ class Contact extends Component {
   originalContact() {
     return (
       <div
-        className="contact-body"
-        style={{ background: "#DAD4DB", color: "black", paddingTop: "7%" }}
+        className="contact-body backgroundlight"
+        style={{ color: "black", paddingTop: "7%" }}
       >
         <Grid className="contact-grid">
           <Cell col={6}>
@@ -76,8 +76,8 @@ class Contact extends Component {
   mobileContact() {
     return (
       <div
-        className="contact-body"
-        style={{ background: "#DAD4DB", color: "black", paddingTop: "15%" }}
+        className="contact-body backgroundlight"
+        style={{ color: "black", paddingTop: "15%" }}
       >
         <Grid className="contact-grid">
           <h2>CONTACT ME</h2>

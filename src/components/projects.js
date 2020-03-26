@@ -6,13 +6,22 @@ import portfolio4 from "../img/portfolio-4.png";
 import gigs from "../img/gigs.png";
 import { Button, Card } from "react-bootstrap";
 import { Grid, Cell } from "react-mdl";
+import {
+  MDBRow,
+  MDBCol,
+  MDBCardBody,
+  MDBIcon,
+  MDBBtn,
+  MDBView,
+  MDBMask
+} from "mdbreact";
 
 class Projects extends Component {
   render() {
     return (
       <div>
         <div
-          style={{ background: "#DAD4DB", color: "black", paddingTop: "7%" }}
+          style={{ background: "#b4d0e7", color: "black", paddingTop: "7%" }}
         >
           <div class="container font1 font2">
             <br></br>
@@ -143,15 +152,15 @@ class Projects extends Component {
           </div>
           <br></br>
 
-          <div style={{ background: "#493f3f", color: "black" }}>
+          <div style={{ background: "#2373A9", color: "black" }}>
             <div className="container">
               <section class="content-section">
                 <h3 class="font2" id="p1">
                   <Card>
-                    <Card.Header style={{ background: "#DAD4DB" }}>
+                    <Card.Header style={{ background: "#b4d0e7" }}>
                       Become A Top Airbnb Earner
                     </Card.Header>
-                    <Card.Body style={{ background: "#ECE5ED" }}>
+                    <Card.Body style={{ background: "#b4d0e7" }}>
                       <p>
                         The goal for this project was to make recommandations
                         for the low earner hosts and make their listings more
@@ -199,10 +208,10 @@ class Projects extends Component {
                 <br></br>
                 <h3 class="font2" id="p2">
                   <Card>
-                    <Card.Header style={{ background: "#DAD4DB" }}>
+                    <Card.Header style={{ background: "#b4d0e7" }}>
                       Gigs
                     </Card.Header>
-                    <Card.Body style={{ background: "#ECE5ED" }}>
+                    <Card.Body style={{ background: "#b4d0e7" }}>
                       <p>
                         Gigs is an online platform that connects gigs employers
                         and workers. Gigs employers and workers have to setup
@@ -274,10 +283,10 @@ class Projects extends Component {
                 <br></br>
                 <h3 class="font2" id="p3">
                   <Card>
-                    <Card.Header style={{ background: "#DAD4DB" }}>
+                    <Card.Header style={{ background: "#b4d0e7" }}>
                       Treeki
                     </Card.Header>
-                    <Card.Body style={{ background: "#ECE5ED" }}>
+                    <Card.Body style={{ background: "#b4d0e7" }}>
                       <p>
                         Treeki is an Android app that asks users a random
                         question every day of the year, and the question will
@@ -343,10 +352,10 @@ class Projects extends Component {
                 <br></br>
                 <h3 class="font2" id="p4">
                   <Card>
-                    <Card.Header style={{ background: "#DAD4DB" }}>
+                    <Card.Header style={{ background: "#b4d0e7" }}>
                       Lecture Poll
                     </Card.Header>
-                    <Card.Body style={{ background: "#ECE5ED" }}>
+                    <Card.Body style={{ background: "#b4d0e7" }}>
                       <p>
                         The idea of this website is to allow instructors to
                         quickly and easily poll people for answers on test

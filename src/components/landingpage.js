@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Profile2 from "../img/mobile-profile.png";
+import { render } from "react-dom";
+import IosCall from "react-ionicons/lib/IosCall";
+import MdAttach from "react-ionicons/lib/MdAttach";
+import LogoLinkedin from "react-ionicons/lib/LogoLinkedin";
+import LogoGithub from "react-ionicons/lib/LogoGithub";
+import LogoFacebook from "react-ionicons/lib/LogoFacebook";
+import LogoInstagram from "react-ionicons/lib/LogoInstagram";
 
 class Landing extends Component {
   constructor() {
@@ -69,11 +76,13 @@ class Landing extends Component {
                 </Cell>
                 <br />
                 <h2>Aspiring Software Engineer</h2>
-                <Cell col={8}>
+                <Cell col={6}>
                   <p>
                     Recent Graduate in Computer Science actively seeking a job.
-                    Stay on this website for as long as you want. If you want to
-                    contact me, feel free to click on the contact button below.
+                    Stay on this website for as long as you want. <br />
+                    <br />
+                    If you would like to contact me or checkout my social media,
+                    click on the icons below.
                   </p>
                 </Cell>
                 <br />
@@ -93,32 +102,46 @@ class Landing extends Component {
                       CONTACT
                     </Button>
                   </Link> */}
-                  <a href="/contact" rel="noopener noreferrer" target="_blank">
-                    <i class="far fa-address-card" />
+                  {/* contact */}
+                  <a href="/contact" target="_blank">
+                    <IosCall beat={true} fontSize="60px" />
                   </a>
 
                   {/* resume */}
                   <a
-                    href="https://www.dropbox.com/s/pm6dpxk8dw3vejw/Tangni-Wang-l2.pdf?dl=0"
+                    href="https://www.dropbox.com/s/g2anflqr672hsw2/Tanny_Wang.pdf?dl=0"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i class="far fa-save" />
+                    <MdAttach beat={true} fontSize="60px" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tangni-wang/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fab fa-linkedin-in"></i>
+                    <LogoLinkedin beat={true} fontSize="60px" />
                   </a>
-                  {/* Github */}
                   <a
                     href="https://github.com/tannywaaa"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i className="fab fa-github"></i>
+                    <LogoGithub beat={true} fontSize="60px" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/tangni.wang"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LogoFacebook beat={true} fontSize="60px" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/tanny_waaaa/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LogoInstagram beat={true} fontSize="60px" />
                   </a>
                 </div>
               </div>
@@ -176,21 +199,16 @@ class Landing extends Component {
                       CONTACT
                     </Button>
                   </Link> */}
-                  {/* resume */}
-                  <a href="/contact" rel="noopener noreferrer" target="_blank">
+                  {/* <a href="/contact" rel="noopener noreferrer" target="_blank">
                     <i class="far fa-address-card" />
                   </a>
 
-                  {/* resume */}
                   <a
                     href="https://www.dropbox.com/s/pm6dpxk8dw3vejw/Tangni-Wang-l2.pdf?dl=0"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <i
-                      // onMouseOver={(e)=> {e.ele}}
-                      class="far fa-save"
-                    />
+                    <i class="far fa-save" />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tangni-wang/"
@@ -199,13 +217,47 @@ class Landing extends Component {
                   >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
-                  {/* Github */}
                   <a
                     href="https://github.com/tannywaaa"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
                     <i className="fab fa-github"></i>
+                  </a> */}
+                  <a
+                    href="https://www.dropbox.com/s/g2anflqr672hsw2/Tanny_Wang.pdf?dl=0"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <MdAttach beat={true} fontSize="50px" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/tangni-wang/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LogoLinkedin beat={true} fontSize="50px" />
+                  </a>
+                  <a
+                    href="https://github.com/tannywaaa"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LogoGithub beat={true} fontSize="50px" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/tangni.wang"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LogoFacebook beat={true} fontSize="50px" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/tanny_waaaa/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LogoInstagram beat={true} fontSize="50px" />
                   </a>
                 </div>
               </div>

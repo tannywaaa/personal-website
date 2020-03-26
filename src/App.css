@@ -1,23 +1,23 @@
 .header-color {
   font-family: "Overlock";
-  background: #dad4db; /* fallback for old browsers */
+  background: #2373a9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #dad4db,
-    #dad4db,
-    #dad4db
+    #2373a9,
+    #2373a9,
+    #2373a9
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #dad4db,
-    #dad4db,
-    #dad4db
+    #2373a9,
+    #2373a9,
+    #2373a9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* bootstrap header */
 
 #mainNav .navbar-brand {
-  color: #493f3f;
+  color: black;
   font-family: "Pangolin";
 }
 
@@ -26,13 +26,13 @@
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #493f3f;
+  color: black;
   font-family: "Pangolin";
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: white;
+  color: #2373a9;
 }
 
 @media (min-width: 992px) {
@@ -97,7 +97,7 @@
   padding-top: 40px;
   color: black;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 50%;
   margin: auto;
   float: left;
@@ -111,7 +111,7 @@
 }
 /* Resume*/
 .resume-right-col {
-  background: #493f3f;
+  background: #2373a9;
   color: white;
   padding: 2em;
 }
@@ -211,12 +211,14 @@
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: #332f2d;
+    background-color: #2373a9;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
 }
-
+.checked {
+  color: orange;
+}
 /* Contact Section
 --------------------------------*/
 /* contact page css */
@@ -249,7 +251,7 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: #493f3f;
+  background: #2373a9;
   color: white;
   margin-bottom: 20px;
 }
@@ -283,7 +285,7 @@
 }
 
 .vl {
-  border-left: 6px solid #dad4db;
+  border-left: 6px solid #b4d0e7;
   height: 530px;
   position: absolute;
   left: 50%;
@@ -462,7 +464,7 @@
   width: 30%;
   margin: 0 auto 0 auto;
   transform-origin: bottom;
-  width: 200px;
+  width: 300px;
 }
 .bounce-7 {
   animation-name: bounce-7;
@@ -492,8 +494,6 @@
   }
 }
 
-/* testing */
-
 /* The typing effect */
 @keyframes typing {
   from {
@@ -514,3 +514,17 @@
     border-color: black;
   }
 }
+
+/* background color */
+.backgroundlight {
+  background-color: #b4d0e7;
+}
+/* .backgrounddark{
+
+}
+.colorlight{
+
+}
+.colordark{
+
+} */

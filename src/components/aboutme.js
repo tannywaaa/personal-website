@@ -26,8 +26,8 @@ class About extends Component {
     return (
       <div>
         <div
-          className="contact-body2 font1 font2"
-          style={{ background: "#DAD4DB", color: "black" }}
+          className="contact-body2 font1 font2 backgroundlight"
+          style={{ color: "black" }}
         >
           <Grid>
             <Cell col={5}>
@@ -72,7 +72,7 @@ class About extends Component {
                 </p>
                 <Button
                   variant="outline-danger"
-                  href="https://www.dropbox.com/s/pm6dpxk8dw3vejw/Tangni-Wang-l2.pdf?dl=0"
+                  href="https://www.dropbox.com/s/g2anflqr672hsw2/Tanny_Wang.pdf?dl=0"
                   rel="noopener noreferrer"
                   target="_blank"
                   style={{
@@ -110,7 +110,7 @@ class About extends Component {
   mobileAboutMe() {
     return (
       <div>
-        <div style={{ background: "#DAD4DB", color: "black" }}>
+        <div className="backgroundlight" style={{ color: "black" }}>
           <div className="about-text-mobile" style={{ paddingLeft: "10%" }}>
             <div className="text-center">
               <h1>
@@ -149,7 +149,7 @@ class About extends Component {
             </div>
             <Button
               variant="outline-danger"
-              href="https://www.dropbox.com/s/l8w5nv30lc2ndd2/spring_resume.pdf?dl=0"
+              href="https://www.dropbox.com/s/g2anflqr672hsw2/Tanny_Wang.pdf?dl=0"
               rel="noopener noreferrer"
               target="_blank"
               style={{
