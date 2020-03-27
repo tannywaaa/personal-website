@@ -19,30 +19,34 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-            <a class="navbar-brand" style={{ padding: "0 43% 0 13%" }} href="/">
-              <i class="fas fa-home" /> HOME
+          <nav className="navbar navbar-expand-lg fixed-top" id="mainNav">
+            <a
+              className="navbar-brand"
+              style={{ padding: "0 43% 0 13%" }}
+              href="/"
+            >
+              <i className="fas fa-home" /> HOME
             </a>
 
-            <div class="">
-              <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item">
-                  <Link class="nav-link " to="/resume">
+            <div className="">
+              <ul className="navbar-nav text-uppercase ml-auto">
+                <li className="nav-item">
+                  <Link className="nav-link " to="/resume">
                     Resume
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link " to="/projects">
+                <li className="nav-item">
+                  <Link className="nav-link " to="/projects">
                     Projects
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link " to="/aboutme">
+                <li className="nav-item">
+                  <Link className="nav-link " to="/aboutme">
                     About Me
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link class="nav-link " to="/contact">
+                <li className="nav-item">
+                  <Link className="nav-link " to="/contact">
                     Contact
                   </Link>
                 </li>

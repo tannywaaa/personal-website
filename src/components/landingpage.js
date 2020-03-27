@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Profile2 from "../img/mobile-profile.png";
-import { render } from "react-dom";
 import IosCall from "react-ionicons/lib/IosCall";
 import MdAttach from "react-ionicons/lib/MdAttach";
 import LogoLinkedin from "react-ionicons/lib/LogoLinkedin";
@@ -70,7 +69,11 @@ class Landing extends Component {
           <Grid>
             <Cell col={12}>
               <div className="banner-text">
-                <img src={Profile2} className="avatar-img box bounce-7 stage" />
+                <img
+                  src={Profile2}
+                  alt=""
+                  className="avatar-img box bounce-7 stage"
+                />
                 <Cell col={6}>
                   <h1>Hello , I'm Tanny.</h1>
                 </Cell>
@@ -167,6 +170,7 @@ class Landing extends Component {
                   }}
                   src={Profile2}
                   className="avatar-img-mobile box bounce-7 stage"
+                  alt=""
                 />
                 <center>
                   <h1>Hello, I'm Tanny.</h1>

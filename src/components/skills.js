@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, ProgressBar } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 
 class Skills extends Component {
   rate = () => {

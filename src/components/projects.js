@@ -5,8 +5,7 @@ import portfolio3 from "../img/portfolio-3.jpg";
 import portfolio4 from "../img/portfolio-4.png";
 import portfolio5 from "../img/portfolio-5.jpg";
 import gigs from "../img/gigs.png";
-import { Button, Card, Modal, ButtonToolbar, Row, Col } from "react-bootstrap";
-import { Grid, Cell } from "react-mdl";
+import { Button, Modal, ButtonToolbar, Row, Col } from "react-bootstrap";
 import Chip from "@material-ui/core/Chip";
 import Divider from "@material-ui/core/Divider";
 
@@ -359,7 +358,7 @@ class Projects extends Component {
                 <Col>
                   <h4>Website Overview:</h4>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     style={{ width: "80%", height: "80%" }}
                     src={gigs}
                     alt=""
@@ -668,20 +667,20 @@ class Projects extends Component {
     return (
       <div className="backgroundlight">
         <div style={{ color: "black", paddingTop: "7%" }}>
-          <div class="container font1 font2">
+          <div className="container font1 font2">
             <br></br>
-            <div class="row no-gutters">
+            <div className="row no-gutters">
               {/* prep to your door */}
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
+              <div className="col-lg-6">
+                <div
+                  className="portfolio-item"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <span class="caption">
-                    <span class="caption-content">
+                  <span className="caption">
+                    <span className="caption-content">
                       <h2 className="font">Prep To Your Door</h2>
-                      <p class="mb-0">
+                      <p className="mb-0">
                         Prep to Your Door is an online platform that focuses on
                         creating a healthier food environment in their home
                         state of Texas.
@@ -689,60 +688,63 @@ class Projects extends Component {
                       <PrepReadMore />
                     </span>
                   </span>
-                  <img class="img-fluid" src={portfolio5} alt="" />
-                </a>
+                  <img className="img-fluid" src={portfolio5} alt="" />
+                </div>
               </div>
               {/* airbnb */}
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
+              <div className="col-lg-6">
+                <div
+                  className="portfolio-item"
                   rel="noopener noreferrer"
                   target="_blank"
+                  href=""
                 >
-                  <span class="caption">
-                    <span class="caption-content">
+                  <span className="caption">
+                    <span className="caption-content">
                       <h2 className="font">Become A Top Airbnb Earner</h2>
-                      <p class="mb-0">
+                      <p className="mb-0">
                         This project used AI models to analyze Airbnb data and
                         study the factors for host to become a top earner.
                       </p>
                       <AirbnbReadMore />
                     </span>
                   </span>
-                  <img class="img-fluid" src={portfolio1} alt="" />
-                </a>
+                  <img className="img-fluid" src={portfolio1} alt="" />
+                </div>
               </div>
               {/* gigs */}
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
+              <div className="col-lg-6">
+                <div
+                  className="portfolio-item"
                   rel="noopener noreferrer"
                   target="_blank"
+                  href=""
                 >
-                  <span class="caption">
-                    <span class="caption-content">
+                  <span className="caption">
+                    <span className="caption-content">
                       <h2 className="font">Gigs</h2>
-                      <p class="mb-0">
+                      <p className="mb-0">
                         The website is an online platform that connects gigs
                         employers and employees.
                       </p>
                       <GigsReadMore />
                     </span>
                   </span>
-                  <img class="img-fluid" src={portfolio2} alt="" />
-                </a>
+                  <img className="img-fluid" src={portfolio2} alt="" />
+                </div>
               </div>
               {/* treeki */}
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
+              <div className="col-lg-6">
+                <div
+                  className="portfolio-item"
                   rel="noopener noreferrer"
                   target="_blank"
+                  href=""
                 >
-                  <span class="caption">
-                    <span class="caption-content">
+                  <span className="caption">
+                    <span className="caption-content">
                       <h2 className="font">Treeki</h2>
-                      <p class="mb-0">
+                      <p className="mb-0">
                         The app asks the user a daily question, and repeats
                         questions yearly which allows the user to see how
                         they've grown over the years.
@@ -750,27 +752,28 @@ class Projects extends Component {
                       <TreekiReadMore />
                     </span>
                   </span>
-                  <img class="img-fluid" src={portfolio3} alt="" />
-                </a>
+                  <img className="img-fluid" src={portfolio3} alt="" />
+                </div>
               </div>
               {/* Lecture Poll */}
-              <div class="col-lg-6">
-                <a
-                  class="portfolio-item"
+              <div className="col-lg-6">
+                <div
+                  className="portfolio-item"
                   rel="noopener noreferrer"
                   target="_blank"
+                  href=""
                 >
-                  <span class="caption">
-                    <span class="caption-content">
+                  <span className="caption">
+                    <span className="caption-content">
                       <h2 className="font">Lecture Poll</h2>
-                      <p class="mb-0">
+                      <p className="mb-0">
                         A web application for quick-and-easy poll questions.
                       </p>
                       <LectureReadMore />
                     </span>
                   </span>
-                  <img class="img-fluid" src={portfolio4} alt="" />
-                </a>
+                  <img className="img-fluid" src={portfolio4} alt="" />
+                </div>
               </div>
             </div>
           </div>
