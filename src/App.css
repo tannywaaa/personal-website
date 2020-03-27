@@ -127,6 +127,9 @@
   color: black;
   font-size: 1.3em;
 }
+.checked {
+  color: orange;
+}
 
 /* project */
 .background-image {
@@ -211,13 +214,10 @@
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: #2373a9;
+    background-color: #3e4346;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
-}
-.checked {
-  color: orange;
 }
 /* Contact Section
 --------------------------------*/
@@ -517,12 +517,13 @@
 
 /* background color */
 .backgroundlight {
-  background-color: #b4d0e7;
+  background-color: #d7e2eb;
 }
-/* .backgrounddark{
+.cardbackgroundlight {
+  background-color: #edf2f5;
+}
 
-}
-.colorlight{
+/*.colorlight{
 
 }
 .colordark{
